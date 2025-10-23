@@ -1,0 +1,14 @@
+-rootPath
+/Users/sevgi/car-hmi-with-cursor
+-cmake-output
+-output-file
+/Users/sevgi/car-hmi-with-cursor/build/.qt/qml_imports/car-hmi-with-cursor_build.cmake
+-importPath
+/Users/sevgi/car-hmi-with-cursor/build/CarHMI
+-importPath
+/Users/sevgi/car-hmi-with-cursor/build
+-importPath
+/Users/sevgi/Qt/6.9.3/macos/qml
+-qrcFiles
+/Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/qmake_CarHMI.qrc
+/Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc

@@ -1,0 +1,1260 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 1060,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 36
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 37
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 38
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 35
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 51
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 48
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 4720,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onPaint",
+                        "line": 62
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 48,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 124
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 17,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 125
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 173,
+                        "errorMessage": "",
+                        "functionName": "rotation",
+                        "line": 126
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 123
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 72,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 141
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 143
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 144
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 154
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 156
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 157
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 167
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 171
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 172
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 182
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 44,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 193
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 194
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 195
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 192
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 212
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 213
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 39,
+                        "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "functionName": "radius",
+                        "line": 225
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 223
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 233
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 237
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "style",
+                        "line": 242
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 241
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 254
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "Cannot access value for name gear",
+                        "functionName": "color",
+                        "line": 265
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 267
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 268
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "functionName": "radius",
+                        "line": 280
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 278
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "Cannot load property border from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "functionName": "color",
+                        "line": 282
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 288
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Cannot access value for name gear",
+                        "functionName": "color",
+                        "line": 291
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "style",
+                        "line": 293
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 292
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 301
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 302
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 314
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 320
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 321
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 122,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 326
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 327
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "functionName": "radius",
+                        "line": 328
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 54,
+                        "durationMicroseconds": 218,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 331
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 54,
+                        "durationMicroseconds": 196,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 332
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 341
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "style",
+                        "line": 346
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 345
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 353
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 355
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 362
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 367
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 370
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 78,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 371
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "functionName": "radius",
+                        "line": 372
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 373
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 374
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 58,
+                        "durationMicroseconds": 142,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 377
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 58,
+                        "durationMicroseconds": 121,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 378
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 125,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 393
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 390
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 391
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 80,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 397
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 400
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 401
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 408
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 410
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 417
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 422
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 425
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 426
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 23,
+                        "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "functionName": "radius",
+                        "line": 427
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 428
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 429
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 58,
+                        "durationMicroseconds": 199,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 432
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 58,
+                        "durationMicroseconds": 208,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 433
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 139,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 448
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 445
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 446
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 452
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 455
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 456
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 112,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 466
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 469
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 471
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "functionName": "radius",
+                        "line": 477
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 481
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 475
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 489
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 490
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "running",
+                        "line": 498
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 499
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 510
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 513
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 515
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "functionName": "radius",
+                        "line": 521
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 50,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 525
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 519
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 109,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 533
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 534
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "running",
+                        "line": 542
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 543
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 131,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 554
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 557
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 558
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "functionName": "radius",
+                        "line": 564
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 568
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 562
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 576
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 577
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 584
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 585
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 586
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 598
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 599
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 607
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 109,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 614
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 19,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 615
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "running",
+                        "line": 619
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 620
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 107,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 631
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 638
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 17,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 639
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "",
+                        "functionName": "running",
+                        "line": 643
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 644
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 93,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 655
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 99,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 662
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 663
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 26,
+                        "errorMessage": "",
+                        "functionName": "running",
+                        "line": 667
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 668
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 683
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 684
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 16,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 688
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 695
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 74,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "text",
+                        "line": 699
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 704
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 717
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 28,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 718
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 18,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 722
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 729
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 23,
+                        "durationMicroseconds": 63,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "text",
+                        "line": 733
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 737
+                    }
+                ],
+                "filePath": "/Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml"
+            }
+        ],
+        "moduleId": "CarHMI(car-hmi-with-cursor)"
+    }
+]

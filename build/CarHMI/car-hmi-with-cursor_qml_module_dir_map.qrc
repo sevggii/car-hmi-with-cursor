@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/CarHMI">/Users/sevgi/car-hmi-with-cursor/build/CarHMI</file>
+
+  </qresource>
+</RCC>

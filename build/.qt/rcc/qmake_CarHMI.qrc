@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/CarHMI">
+    <file alias="qmldir">/Users/sevgi/car-hmi-with-cursor/build/CarHMI/qmldir</file>
+  </qresource>
+</RCC>
+

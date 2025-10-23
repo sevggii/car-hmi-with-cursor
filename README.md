@@ -1,15 +1,56 @@
 # Car HMI with Cursor
 
-A modern automotive cluster HMI simulation built with Qt 6 and QML, featuring a speedometer, tachometer (RPM), turn signals, and high beam indicators.
+A professional automotive cluster HMI simulation built with Qt 6 and QML, featuring a speedometer, tachometer, gear indicator, fuel/temperature gauges, turn signals, high beam, and warning lights with stunning glow effects and smooth animations.
+
+![Car HMI Demo](docs/images/demo.gif)
+
+## 🎬 Demo
+
+<p align="center">
+  <img src="docs/images/screenshot-main.png" width="800" alt="Main Cluster View"/>
+</p>
+
+### Live Demo Features
+- **Real-time Speed Gauge** - Smooth needle animation (0-240 km/h)
+- **Dynamic RPM Bar** - Color transitions (green → yellow → red)
+- **Automatic Gear Shifting** - Speed-based gear changes (P/1-6)
+- **Animated Indicators** - Pulsing turn signals and warnings
+- **Live Telemetry** - Fuel consumption, temperature, distance tracking
+
+> **📸 Want to create your own demo?** 
+> 
+> Run the included script: `./create_demo.sh`
+> 
+> Or see detailed instructions in [docs/CREATE_DEMO.md](docs/CREATE_DEMO.md)
 
 ## Features
 
-- **Circular Speed Gauge**: 0-240 km/h with animated needle and scale markings
-- **Digital Speed Display**: Real-time speed readout
-- **RPM Bar**: Color-coded tachometer (green → yellow → red)
-- **Turn Signal Indicators**: Animated left/right blinkers
-- **High Beam Indicator**: Visual feedback for high beam status
-- **Control Panel**: Interactive sliders for speed/RPM and checkboxes for indicators
+### 🎨 Professional Automotive Cluster
+- **Circular Speed Gauge**: 0-240 km/h with animated needle and color-coded scale markings
+- **Digital Speed Display**: Real-time speed readout with glow effects
+- **RPM Bar**: Color-coded tachometer with gradient (green → yellow → red)
+- **Gear Indicator**: Large, prominent gear display (P/1/2/3/4/5/6)
+- **Fuel Gauge**: Vertical bar with percentage indicator
+- **Temperature Gauge**: Coolant temperature display (70-120°C)
+- **Odometer & Trip Meter**: Distance tracking with live updates
+
+### 🎯 Visual Effects
+- **Glow Effects**: Multi-layer shadows on indicators and gauges
+- **Gradient Backgrounds**: Professional depth and dimensionality
+- **Smooth Animations**: 30Hz update rate with interpolation
+- **Pulsing Alerts**: Warning lights blink when active
+
+### 🚦 Indicators & Warnings
+- **Turn Signals**: Animated left/right blinkers with pulse animation
+- **High Beam Indicator**: Visual feedback with glow effect
+- **Engine Warning**: RPM > 7000 triggers alert
+- **Oil Warning**: Temperature > 110°C triggers alert
+- **Fuel Warning**: Fuel < 10% triggers alert
+
+### 🎮 Interactive Control Panel
+- **Speed & RPM Sliders**: Real-time control with smooth interpolation
+- **Indicator Checkboxes**: Toggle blinkers and high beam
+- **Live Status Display**: Shows gear, fuel, temperature, odometer, trip meter, and warnings
 - **Dark Automotive Theme**: Modern UI with cyan accents
 
 ## Technical Details
@@ -79,8 +120,13 @@ The gauges will smoothly animate to the target values with realistic oscillation
 ## MockCan Class
 
 The `MockCan` class provides:
-- **Q_PROPERTY**: Exposes speed, rpm, blinker, and high beam states to QML
+- **Q_PROPERTY**: Exposes speed, rpm, gear, fuel, temperature, odometer, trip meter, blinkers, high beam, and warnings to QML
 - **30 Hz Updates**: Smooth value interpolation with realistic oscillations
+- **Automatic Gear Shifting**: Speed-based gear calculation (P/1-6)
+- **Fuel Consumption**: Realistic fuel depletion based on speed
+- **Temperature Simulation**: Engine temperature varies with RPM
+- **Distance Tracking**: Odometer and trip meter increment with speed
+- **Warning System**: Automatic alerts for high RPM, temperature, and low fuel
 - **Blinker Animation**: 500ms toggle rate for turn signals
 - **Value Clamping**: Ensures values stay within realistic ranges
 

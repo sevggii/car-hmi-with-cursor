@@ -1,0 +1,11 @@
+--bare
+-I
+/Users/sevgi/car-hmi-with-cursor/build
+-I
+/Users/sevgi/Qt/6.9.3/macos/qml
+--resource
+/Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/qmake_CarHMI.qrc
+--resource
+/Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc
+/Users/sevgi/car-hmi-with-cursor/ui/Main.qml
+/Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml

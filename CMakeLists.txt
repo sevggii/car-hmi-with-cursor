@@ -17,6 +17,10 @@ qt_add_executable(car-hmi-with-cursor
     signals/MockCan.cpp
 )
 
+target_include_directories(car-hmi-with-cursor PRIVATE
+    ${CMAKE_SOURCE_DIR}/signals
+)
+
 qt_add_qml_module(car-hmi-with-cursor
     URI CarHMI
     VERSION 1.0

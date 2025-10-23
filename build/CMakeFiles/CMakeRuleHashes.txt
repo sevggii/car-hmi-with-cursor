@@ -1,0 +1,26 @@
+# Hashes of file build rules.
+def566710d71e9e70da59a95952c24eb .qt/car-hmi-with-cursor_qml.txt
+1a64795f8abe06c9e7ff7261db893824 .qt/car-hmi-with-cursor_res.txt
+3dc74f806318a49f510ef652429113d3 .qt/qml_imports/car-hmi-with-cursor_build.cmake
+11655c4f79920f318790d72ad543fa9d .qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp
+894e5c7630786a3ec8d43c3fc8b1ec3a .qt/rcc/qrc_qmake_CarHMI.cpp
+c5ace741b9200db13660368d40d7c0d7 .rcc/qmlcache/all_aotstats.aotstats
+f10f3bd27c6256d6a0f571d0fe11f843 .rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp
+59e697e132e9f9423f0b2ce3814d8f67 .rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp
+8614bb3620464d338a83f17baed585f8 .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp
+91e7494c72e6612cab1561879af3f969 .rcc/qmlcache/module_car-hmi-with-cursor.aotstats
+fdc38e307a48e5c3e4c0ab0a4f6f7d51 CMakeFiles/all_aotstats
+f9271d47275074f598d72d9c1e9b60aa CMakeFiles/car-hmi-with-cursor_autogen
+f9271d47275074f598d72d9c1e9b60aa CMakeFiles/car-hmi-with-cursor_copy_qml
+f9271d47275074f598d72d9c1e9b60aa CMakeFiles/car-hmi-with-cursor_copy_res
+f9271d47275074f598d72d9c1e9b60aa CMakeFiles/car-hmi-with-cursor_qmlimportscan
+907d8b529bbc23fb0211f5da72b7b622 CMakeFiles/car-hmi-with-cursor_qmllint
+05428c21fd41ab2dabf0596e69f5c8c7 CMakeFiles/car-hmi-with-cursor_qmllint_json
+3cbf44f6e672f1d63b8bbc2d370b794c CMakeFiles/car-hmi-with-cursor_qmllint_module
+f9271d47275074f598d72d9c1e9b60aa CMakeFiles/car-hmi-with-cursor_qmltyperegistration
+f9271d47275074f598d72d9c1e9b60aa CMakeFiles/module_car-hmi-with-cursor_aotstats_target
+72cb26a66033e2b78f3a2b88a16e1166 car-hmi-with-cursor_autogen/timestamp
+5e261a1c1234b8a9980e1b6beeec7062 car-hmi-with-cursor_qmltyperegistrations.cpp
+5cbe4e93df0c5309f18b9e20803cbd94 meta_types/car-hmi-with-cursor_json_file_list.txt
+cc4dcde4a777ea27e07dbd3b34e8b3d7 meta_types/qt6car-hmi-with-cursor_release_metatypes.json
+dfb12a6bd29be8e35bd52002b45109da meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen
