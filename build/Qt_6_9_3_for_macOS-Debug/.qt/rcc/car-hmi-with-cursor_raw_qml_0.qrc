@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/CarHMI/">
+    <file alias="ui/Main.qml">/Users/sevgi/car-hmi-with-cursor/ui/Main.qml</file>
+    <file alias="ui/components/SpeedCluster.qml">/Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml</file>
+  </qresource>
+</RCC>
+

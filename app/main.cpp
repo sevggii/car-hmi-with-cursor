@@ -1,27 +1,23 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
-#include <QQmlContext>
-#include "../signals/MockCan.h"
+#include <QtQml>
+#include "MockCan.h"
 
-int main(int argc, char *argv[])
-{
+using namespace Qt::StringLiterals; // yeni Qt 6.9 formatı
+
+int main(int argc, char *argv[]) {
     QGuiApplication app(argc, argv);
 
+    qmlRegisterType<MockCan>("Telem", 1, 0, "MockCan");
+
     QQmlApplicationEngine engine;
+    const QUrl url("qrc:/ui/Main.qml"_s); // "_qs" yerine "_s" kullan
+    QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
+                     &app, [url](QObject *obj, const QUrl &objUrl) {
+                         if (!obj && url == objUrl)
+                             QCoreApplication::exit(-1);
+                     }, Qt::QueuedConnection);
 
-    // Create and register MockCan instance
-    MockCan mockCan;
-    engine.rootContext()->setContextProperty("mockCan", &mockCan);
-
-    const QUrl url(u"qrc:/CarHMI/ui/Main.qml"_qs);
-    QObject::connect(
-        &engine,
-        &QQmlApplicationEngine::objectCreationFailed,
-        &app,
-        []() { QCoreApplication::exit(-1); },
-        Qt::QueuedConnection);
     engine.load(url);
-
     return app.exec();
 }
-
