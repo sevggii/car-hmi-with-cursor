@@ -5,11 +5,12 @@ A professional automotive cluster HMI simulation built with Qt 6 and QML, featur
 ## 🎬 Demo
 
 <p align="center">
-  <img src="docs/images/cluster-preview.svg" width="800" alt="Car HMI Cluster Preview"/>
+  <img src="docs/images/cluster-animated.svg" width="800" alt="Car HMI Cluster - Animated Demo"/>
 </p>
 
 <p align="center">
-  <em>🎨 Visual representation of the car HMI cluster interface</em>
+  <em>🎨 Animated representation of the car HMI cluster interface</em><br/>
+  <sub>Watch the needle move, indicators blink, and values change in real-time! ✨</sub>
 </p>
 
 ### Live Application Features
