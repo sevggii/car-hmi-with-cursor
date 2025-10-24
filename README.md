@@ -2,13 +2,32 @@
 
 A professional automotive cluster HMI simulation built with Qt 6 and QML, featuring a speedometer, tachometer, gear indicator, fuel/temperature gauges, turn signals, high beam, and warning lights with stunning glow effects and smooth animations.
 
-![Car HMI Demo](docs/images/demo.gif)
-
 ## 🎬 Demo
 
 <p align="center">
-  <img src="docs/images/screenshot-main.png" width="800" alt="Main Cluster View"/>
+  <img src="docs/images/cluster-preview.svg" width="800" alt="Car HMI Cluster Preview"/>
 </p>
+
+<p align="center">
+  <em>🎨 Visual representation of the car HMI cluster interface</em>
+</p>
+
+### Live Application Features
+The SVG above shows the interface layout. When you run the actual application, you'll see:
+- **Smooth animations** - Real-time needle movement at 30 FPS
+- **Color transitions** - Dynamic RPM bar that changes from green → yellow → red
+- **Pulsing indicators** - Animated turn signals and warning lights
+- **Live data updates** - Fuel consumption, temperature changes, distance tracking
+- **Interactive controls** - Real-time response to slider movements
+
+> 🎥 **Want to see it in action?** 
+> 
+> 1. Build and run: `cd build && ./car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor`
+> 2. Create screenshots/GIF: `./create_demo.sh`
+
+<!-- Uncomment when you have created the demo GIF:
+![Car HMI Demo](docs/images/demo.gif)
+-->
 
 ### Live Demo Features
 - **Real-time Speed Gauge** - Smooth needle animation (0-240 km/h)
