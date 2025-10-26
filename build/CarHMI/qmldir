@@ -3,5 +3,7 @@ typeinfo car-hmi-with-cursor.qmltypes
 prefer :/CarHMI/
 Main 1.0 ui/Main.qml
 SpeedCluster 1.0 ui/components/SpeedCluster.qml
+RealisticCar3D 1.0 ui/components/RealisticCar3D.qml
+InteractiveCar 1.0 ui/components/InteractiveCar.qml
 depends QtQuick
 

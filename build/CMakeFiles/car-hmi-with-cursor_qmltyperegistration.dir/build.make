@@ -70,7 +70,7 @@ CMakeFiles/car-hmi-with-cursor_qmltyperegistration: car-hmi-with-cursor_qmltyper
 CMakeFiles/car-hmi-with-cursor_qmltyperegistration: CarHMI/car-hmi-with-cursor.qmltypes
 
 car-hmi-with-cursor_qmltyperegistrations.cpp: qmltypes/car-hmi-with-cursor_foreign_types.txt
-car-hmi-with-cursor_qmltyperegistrations.cpp: meta_types/qt6car-hmi-with-cursor_release_metatypes.json
+car-hmi-with-cursor_qmltyperegistrations.cpp: meta_types/qt6car-hmi-with-cursor_metatypes.json
 car-hmi-with-cursor_qmltyperegistrations.cpp: /Users/sevgi/Qt/6.9.3/macos/libexec/qmltyperegistrar
 car-hmi-with-cursor_qmltyperegistrations.cpp: /Users/sevgi/Qt/6.9.3/macos/metatypes/qt6core_relwithdebinfo_metatypes.json
 car-hmi-with-cursor_qmltyperegistrations.cpp: /Users/sevgi/Qt/6.9.3/macos/metatypes/qt6qml_relwithdebinfo_metatypes.json
@@ -82,22 +82,22 @@ car-hmi-with-cursor_qmltyperegistrations.cpp: /Users/sevgi/Qt/6.9.3/macos/metaty
 car-hmi-with-cursor_qmltyperegistrations.cpp: /Users/sevgi/Qt/6.9.3/macos/metatypes/qt6qmlworkerscript_relwithdebinfo_metatypes.json
 car-hmi-with-cursor_qmltyperegistrations.cpp: /Users/sevgi/Qt/6.9.3/macos/metatypes/qt6opengl_relwithdebinfo_metatypes.json
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target car-hmi-with-cursor"
-	/Users/sevgi/Qt/6.9.3/macos/libexec/qmltyperegistrar --generate-qmltypes=/Users/sevgi/car-hmi-with-cursor/build/CarHMI/car-hmi-with-cursor.qmltypes --import-name=CarHMI --major-version=1 --minor-version=0 @/Users/sevgi/car-hmi-with-cursor/build/qmltypes/car-hmi-with-cursor_foreign_types.txt -o /Users/sevgi/car-hmi-with-cursor/build/car-hmi-with-cursor_qmltyperegistrations.cpp /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_release_metatypes.json
+	/Users/sevgi/Qt/6.9.3/macos/libexec/qmltyperegistrar --generate-qmltypes=/Users/sevgi/car-hmi-with-cursor/build/CarHMI/car-hmi-with-cursor.qmltypes --import-name=CarHMI --major-version=1 --minor-version=0 @/Users/sevgi/car-hmi-with-cursor/build/qmltypes/car-hmi-with-cursor_foreign_types.txt -o /Users/sevgi/car-hmi-with-cursor/build/car-hmi-with-cursor_qmltyperegistrations.cpp /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_metatypes.json
 	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E make_directory /Users/sevgi/car-hmi-with-cursor/build/.qt/qmltypes
 	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/sevgi/car-hmi-with-cursor/build/.qt/qmltypes/car-hmi-with-cursor.qmltypes
 
 CarHMI/car-hmi-with-cursor.qmltypes: car-hmi-with-cursor_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate CarHMI/car-hmi-with-cursor.qmltypes
 
-meta_types/qt6car-hmi-with-cursor_release_metatypes.json: meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating meta_types/qt6car-hmi-with-cursor_release_metatypes.json"
+meta_types/qt6car-hmi-with-cursor_metatypes.json: meta_types/qt6car-hmi-with-cursor_metatypes.json.gen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating meta_types/qt6car-hmi-with-cursor_metatypes.json"
 	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E true
 
-meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen: /Users/sevgi/Qt/6.9.3/macos/libexec/moc
-meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen: meta_types/car-hmi-with-cursor_json_file_list.txt
+meta_types/qt6car-hmi-with-cursor_metatypes.json.gen: /Users/sevgi/Qt/6.9.3/macos/libexec/moc
+meta_types/qt6car-hmi-with-cursor_metatypes.json.gen: meta_types/car-hmi-with-cursor_json_file_list.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running moc --collect-json for target car-hmi-with-cursor"
-	/Users/sevgi/Qt/6.9.3/macos/libexec/moc -o /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen --collect-json @/Users/sevgi/car-hmi-with-cursor/build/meta_types/car-hmi-with-cursor_json_file_list.txt
-	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy_if_different /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_release_metatypes.json
+	/Users/sevgi/Qt/6.9.3/macos/libexec/moc -o /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_metatypes.json.gen --collect-json @/Users/sevgi/car-hmi-with-cursor/build/meta_types/car-hmi-with-cursor_json_file_list.txt
+	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy_if_different /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_metatypes.json.gen /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_metatypes.json
 
 meta_types/car-hmi-with-cursor_json_file_list.txt: /Users/sevgi/Qt/6.9.3/macos/libexec/cmake_automoc_parser
 meta_types/car-hmi-with-cursor_json_file_list.txt: car-hmi-with-cursor_autogen/timestamp
@@ -107,7 +107,7 @@ meta_types/car-hmi-with-cursor_json_file_list.txt: car-hmi-with-cursor_autogen/t
 car-hmi-with-cursor_autogen/timestamp: /Users/sevgi/Qt/6.9.3/macos/libexec/moc
 car-hmi-with-cursor_autogen/timestamp: CMakeFiles/car-hmi-with-cursor_qmltyperegistration.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Automatic MOC and UIC for target car-hmi-with-cursor"
-	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/sevgi/car-hmi-with-cursor/build/CMakeFiles/car-hmi-with-cursor_autogen.dir/AutogenInfo.json Release
+	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/sevgi/car-hmi-with-cursor/build/CMakeFiles/car-hmi-with-cursor_autogen.dir/AutogenInfo.json ""
 	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/sevgi/car-hmi-with-cursor/build/car-hmi-with-cursor_autogen/timestamp
 
 car-hmi-with-cursor_qmltyperegistration: CMakeFiles/car-hmi-with-cursor_qmltyperegistration
@@ -115,8 +115,8 @@ car-hmi-with-cursor_qmltyperegistration: CarHMI/car-hmi-with-cursor.qmltypes
 car-hmi-with-cursor_qmltyperegistration: car-hmi-with-cursor_autogen/timestamp
 car-hmi-with-cursor_qmltyperegistration: car-hmi-with-cursor_qmltyperegistrations.cpp
 car-hmi-with-cursor_qmltyperegistration: meta_types/car-hmi-with-cursor_json_file_list.txt
-car-hmi-with-cursor_qmltyperegistration: meta_types/qt6car-hmi-with-cursor_release_metatypes.json
-car-hmi-with-cursor_qmltyperegistration: meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen
+car-hmi-with-cursor_qmltyperegistration: meta_types/qt6car-hmi-with-cursor_metatypes.json
+car-hmi-with-cursor_qmltyperegistration: meta_types/qt6car-hmi-with-cursor_metatypes.json.gen
 car-hmi-with-cursor_qmltyperegistration: CMakeFiles/car-hmi-with-cursor_qmltyperegistration.dir/build.make
 .PHONY : car-hmi-with-cursor_qmltyperegistration
 

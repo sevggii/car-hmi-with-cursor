@@ -19,6 +19,20 @@ namespace _0x5f_CarHMI_ui_components_SpeedCluster_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _0x5f_CarHMI_ui_components_RealisticCar3D_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _0x5f_CarHMI_ui_components_InteractiveCar_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -35,6 +49,8 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/CarHMI/ui/Main.qml"), &QmlCacheGeneratedCode::_0x5f_CarHMI_ui_Main_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/CarHMI/ui/components/SpeedCluster.qml"), &QmlCacheGeneratedCode::_0x5f_CarHMI_ui_components_SpeedCluster_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/CarHMI/ui/components/RealisticCar3D.qml"), &QmlCacheGeneratedCode::_0x5f_CarHMI_ui_components_RealisticCar3D_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/CarHMI/ui/components/InteractiveCar.qml"), &QmlCacheGeneratedCode::_0x5f_CarHMI_ui_components_InteractiveCar_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

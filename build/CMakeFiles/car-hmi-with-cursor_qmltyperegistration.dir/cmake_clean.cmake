@@ -6,8 +6,8 @@ file(REMOVE_RECURSE
   "car-hmi-with-cursor_qmltyperegistrations.cpp"
   "meta_types/car-hmi-with-cursor_json_file_list.txt"
   "meta_types/car-hmi-with-cursor_json_file_list.txt.timestamp"
-  "meta_types/qt6car-hmi-with-cursor_release_metatypes.json"
-  "meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen"
+  "meta_types/qt6car-hmi-with-cursor_metatypes.json"
+  "meta_types/qt6car-hmi-with-cursor_metatypes.json.gen"
 )
 
 # Per-language clean rules from dependency scanning.

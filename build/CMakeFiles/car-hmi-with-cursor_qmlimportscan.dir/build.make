@@ -73,6 +73,8 @@ CMakeFiles/car-hmi-with-cursor_qmlimportscan: .qt/qml_imports/car-hmi-with-curso
 .qt/qml_imports/car-hmi-with-cursor_build.cmake: .qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc
 .qt/qml_imports/car-hmi-with-cursor_build.cmake: /Users/sevgi/car-hmi-with-cursor/ui/Main.qml
 .qt/qml_imports/car-hmi-with-cursor_build.cmake: /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml
+.qt/qml_imports/car-hmi-with-cursor_build.cmake: /Users/sevgi/car-hmi-with-cursor/ui/components/RealisticCar3D.qml
+.qt/qml_imports/car-hmi-with-cursor_build.cmake: /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for car-hmi-with-cursor"
 	cd /Users/sevgi/car-hmi-with-cursor && /Users/sevgi/Qt/6.9.3/macos/libexec/qmlimportscanner @/Users/sevgi/car-hmi-with-cursor/build/.qt/qml_imports/car-hmi-with-cursor_build.rsp
 

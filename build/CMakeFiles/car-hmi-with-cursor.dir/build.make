@@ -69,14 +69,14 @@ include CMakeFiles/car-hmi-with-cursor.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/car-hmi-with-cursor.dir/flags.make
 
-meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen: /Users/sevgi/Qt/6.9.3/macos/libexec/moc
-meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen: meta_types/car-hmi-with-cursor_json_file_list.txt
+meta_types/qt6car-hmi-with-cursor_metatypes.json.gen: /Users/sevgi/Qt/6.9.3/macos/libexec/moc
+meta_types/qt6car-hmi-with-cursor_metatypes.json.gen: meta_types/car-hmi-with-cursor_json_file_list.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running moc --collect-json for target car-hmi-with-cursor"
-	/Users/sevgi/Qt/6.9.3/macos/libexec/moc -o /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen --collect-json @/Users/sevgi/car-hmi-with-cursor/build/meta_types/car-hmi-with-cursor_json_file_list.txt
-	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy_if_different /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_release_metatypes.json
+	/Users/sevgi/Qt/6.9.3/macos/libexec/moc -o /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_metatypes.json.gen --collect-json @/Users/sevgi/car-hmi-with-cursor/build/meta_types/car-hmi-with-cursor_json_file_list.txt
+	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E copy_if_different /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_metatypes.json.gen /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_metatypes.json
 
 car-hmi-with-cursor_qmltyperegistrations.cpp: qmltypes/car-hmi-with-cursor_foreign_types.txt
-car-hmi-with-cursor_qmltyperegistrations.cpp: meta_types/qt6car-hmi-with-cursor_release_metatypes.json
+car-hmi-with-cursor_qmltyperegistrations.cpp: meta_types/qt6car-hmi-with-cursor_metatypes.json
 car-hmi-with-cursor_qmltyperegistrations.cpp: /Users/sevgi/Qt/6.9.3/macos/libexec/qmltyperegistrar
 car-hmi-with-cursor_qmltyperegistrations.cpp: /Users/sevgi/Qt/6.9.3/macos/metatypes/qt6core_relwithdebinfo_metatypes.json
 car-hmi-with-cursor_qmltyperegistrations.cpp: /Users/sevgi/Qt/6.9.3/macos/metatypes/qt6qml_relwithdebinfo_metatypes.json
@@ -88,7 +88,7 @@ car-hmi-with-cursor_qmltyperegistrations.cpp: /Users/sevgi/Qt/6.9.3/macos/metaty
 car-hmi-with-cursor_qmltyperegistrations.cpp: /Users/sevgi/Qt/6.9.3/macos/metatypes/qt6qmlworkerscript_relwithdebinfo_metatypes.json
 car-hmi-with-cursor_qmltyperegistrations.cpp: /Users/sevgi/Qt/6.9.3/macos/metatypes/qt6opengl_relwithdebinfo_metatypes.json
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic QML type registration for target car-hmi-with-cursor"
-	/Users/sevgi/Qt/6.9.3/macos/libexec/qmltyperegistrar --generate-qmltypes=/Users/sevgi/car-hmi-with-cursor/build/CarHMI/car-hmi-with-cursor.qmltypes --import-name=CarHMI --major-version=1 --minor-version=0 @/Users/sevgi/car-hmi-with-cursor/build/qmltypes/car-hmi-with-cursor_foreign_types.txt -o /Users/sevgi/car-hmi-with-cursor/build/car-hmi-with-cursor_qmltyperegistrations.cpp /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_release_metatypes.json
+	/Users/sevgi/Qt/6.9.3/macos/libexec/qmltyperegistrar --generate-qmltypes=/Users/sevgi/car-hmi-with-cursor/build/CarHMI/car-hmi-with-cursor.qmltypes --import-name=CarHMI --major-version=1 --minor-version=0 @/Users/sevgi/car-hmi-with-cursor/build/qmltypes/car-hmi-with-cursor_foreign_types.txt -o /Users/sevgi/car-hmi-with-cursor/build/car-hmi-with-cursor_qmltyperegistrations.cpp /Users/sevgi/car-hmi-with-cursor/build/meta_types/qt6car-hmi-with-cursor_metatypes.json
 	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E make_directory /Users/sevgi/car-hmi-with-cursor/build/.qt/qmltypes
 	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/sevgi/car-hmi-with-cursor/build/.qt/qmltypes/car-hmi-with-cursor.qmltypes
 
@@ -134,32 +134,60 @@ CarHMI/car-hmi-with-cursor.qmltypes: car-hmi-with-cursor_qmltyperegistrations.cp
 .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.aotstats: .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.aotstats
 
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp: /Users/sevgi/Qt/6.9.3/macos/libexec/qmlcachegen
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp: /Users/sevgi/car-hmi-with-cursor/ui/components/RealisticCar3D.qml
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp: .qt/rcc/qmake_CarHMI.qrc
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp: .qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp: CarHMI/car-hmi-with-cursor.qmltypes
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp: CarHMI/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp, .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.aotstats"
+	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E make_directory /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components
+	/Users/sevgi/Qt/6.9.3/macos/libexec/qmlcachegen --bare --resource-path /CarHMI/ui/components/RealisticCar3D.qml -I /Users/sevgi/car-hmi-with-cursor/build -I /Users/sevgi/Qt/6.9.3/macos/qml -i /Users/sevgi/car-hmi-with-cursor/build/CarHMI/qmldir --resource /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/qmake_CarHMI.qrc --resource /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc --dump-aot-stats "--module-id=CarHMI(car-hmi-with-cursor)" -o /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp /Users/sevgi/car-hmi-with-cursor/ui/components/RealisticCar3D.qml
+
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.aotstats: .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.aotstats
+
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp: /Users/sevgi/Qt/6.9.3/macos/libexec/qmlcachegen
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp: /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp: .qt/rcc/qmake_CarHMI.qrc
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp: .qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp: CarHMI/car-hmi-with-cursor.qmltypes
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp: CarHMI/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp, .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.aotstats"
+	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E make_directory /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components
+	/Users/sevgi/Qt/6.9.3/macos/libexec/qmlcachegen --bare --resource-path /CarHMI/ui/components/InteractiveCar.qml -I /Users/sevgi/car-hmi-with-cursor/build -I /Users/sevgi/Qt/6.9.3/macos/qml -i /Users/sevgi/car-hmi-with-cursor/build/CarHMI/qmldir --resource /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/qmake_CarHMI.qrc --resource /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc --dump-aot-stats "--module-id=CarHMI(car-hmi-with-cursor)" -o /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml
+
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.aotstats: .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.aotstats
+
 .qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp: /Users/sevgi/car-hmi-with-cursor/ui/Main.qml
 .qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp: /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml
+.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp: /Users/sevgi/car-hmi-with-cursor/ui/components/RealisticCar3D.qml
+.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp: /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml
 .qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp: .qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc
 .qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp: /Users/sevgi/Qt/6.9.3/macos/libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource car-hmi-with-cursor_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running rcc for resource car-hmi-with-cursor_raw_qml_0"
 	/Users/sevgi/Qt/6.9.3/macos/libexec/rcc --output /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp --name car-hmi-with-cursor_raw_qml_0 /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc --no-zstd
 
 car-hmi-with-cursor_autogen/timestamp: /Users/sevgi/Qt/6.9.3/macos/libexec/moc
 car-hmi-with-cursor_autogen/timestamp: CMakeFiles/car-hmi-with-cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Automatic MOC and UIC for target car-hmi-with-cursor"
-	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/sevgi/car-hmi-with-cursor/build/CMakeFiles/car-hmi-with-cursor_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Automatic MOC and UIC for target car-hmi-with-cursor"
+	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/sevgi/car-hmi-with-cursor/build/CMakeFiles/car-hmi-with-cursor_autogen.dir/AutogenInfo.json ""
 	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/sevgi/car-hmi-with-cursor/build/car-hmi-with-cursor_autogen/timestamp
 
 meta_types/car-hmi-with-cursor_json_file_list.txt: /Users/sevgi/Qt/6.9.3/macos/libexec/cmake_automoc_parser
 meta_types/car-hmi-with-cursor_json_file_list.txt: car-hmi-with-cursor_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running AUTOMOC file extraction for target car-hmi-with-cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running AUTOMOC file extraction for target car-hmi-with-cursor"
 	/Users/sevgi/Qt/6.9.3/macos/libexec/cmake_automoc_parser --cmake-autogen-cache-file /Users/sevgi/car-hmi-with-cursor/build/CMakeFiles/car-hmi-with-cursor_autogen.dir/ParseCache.txt --cmake-autogen-info-file /Users/sevgi/car-hmi-with-cursor/build/CMakeFiles/car-hmi-with-cursor_autogen.dir/AutogenInfo.json --output-file-path /Users/sevgi/car-hmi-with-cursor/build/meta_types/car-hmi-with-cursor_json_file_list.txt --timestamp-file-path /Users/sevgi/car-hmi-with-cursor/build/meta_types/car-hmi-with-cursor_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /Users/sevgi/car-hmi-with-cursor/build/car-hmi-with-cursor_autogen/include
 
-meta_types/qt6car-hmi-with-cursor_release_metatypes.json: meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating meta_types/qt6car-hmi-with-cursor_release_metatypes.json"
+meta_types/qt6car-hmi-with-cursor_metatypes.json: meta_types/qt6car-hmi-with-cursor_metatypes.json.gen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating meta_types/qt6car-hmi-with-cursor_metatypes.json"
 	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E true
 
 CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_autogen/mocs_compilation.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/flags.make
 CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_autogen/mocs_compilation.cpp.o: car-hmi-with-cursor_autogen/mocs_compilation.cpp
 CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_autogen/mocs_compilation.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_autogen/mocs_compilation.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_autogen/mocs_compilation.cpp.o -MF CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_autogen/mocs_compilation.cpp.o -c /Users/sevgi/car-hmi-with-cursor/build/car-hmi-with-cursor_autogen/mocs_compilation.cpp
 
 CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_autogen/mocs_compilation.cpp.i: cmake_force
@@ -173,7 +201,7 @@ CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_autogen/mocs_compilation.
 CMakeFiles/car-hmi-with-cursor.dir/app/main.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/flags.make
 CMakeFiles/car-hmi-with-cursor.dir/app/main.cpp.o: /Users/sevgi/car-hmi-with-cursor/app/main.cpp
 CMakeFiles/car-hmi-with-cursor.dir/app/main.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/app/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/app/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/car-hmi-with-cursor.dir/app/main.cpp.o -MF CMakeFiles/car-hmi-with-cursor.dir/app/main.cpp.o.d -o CMakeFiles/car-hmi-with-cursor.dir/app/main.cpp.o -c /Users/sevgi/car-hmi-with-cursor/app/main.cpp
 
 CMakeFiles/car-hmi-with-cursor.dir/app/main.cpp.i: cmake_force
@@ -187,7 +215,7 @@ CMakeFiles/car-hmi-with-cursor.dir/app/main.cpp.s: cmake_force
 CMakeFiles/car-hmi-with-cursor.dir/signals/MockCan.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/flags.make
 CMakeFiles/car-hmi-with-cursor.dir/signals/MockCan.cpp.o: /Users/sevgi/car-hmi-with-cursor/signals/MockCan.cpp
 CMakeFiles/car-hmi-with-cursor.dir/signals/MockCan.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/signals/MockCan.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/signals/MockCan.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/car-hmi-with-cursor.dir/signals/MockCan.cpp.o -MF CMakeFiles/car-hmi-with-cursor.dir/signals/MockCan.cpp.o.d -o CMakeFiles/car-hmi-with-cursor.dir/signals/MockCan.cpp.o -c /Users/sevgi/car-hmi-with-cursor/signals/MockCan.cpp
 
 CMakeFiles/car-hmi-with-cursor.dir/signals/MockCan.cpp.i: cmake_force
@@ -201,7 +229,7 @@ CMakeFiles/car-hmi-with-cursor.dir/signals/MockCan.cpp.s: cmake_force
 CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_qmltyperegistrations.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/flags.make
 CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_qmltyperegistrations.cpp.o: car-hmi-with-cursor_qmltyperegistrations.cpp
 CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_qmltyperegistrations.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_qmltyperegistrations.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_qmltyperegistrations.cpp.o -MF CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_qmltyperegistrations.cpp.o.d -o CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_qmltyperegistrations.cpp.o -c /Users/sevgi/car-hmi-with-cursor/build/car-hmi-with-cursor_qmltyperegistrations.cpp
 
 CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_qmltyperegistrations.cpp.i: cmake_force
@@ -215,7 +243,7 @@ CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_qmltyperegistrations.cpp.
 CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_qmake_CarHMI.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/flags.make
 CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_qmake_CarHMI.cpp.o: .qt/rcc/qrc_qmake_CarHMI.cpp
 CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_qmake_CarHMI.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_qmake_CarHMI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_qmake_CarHMI.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_qmake_CarHMI.cpp.o -MF CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_qmake_CarHMI.cpp.o.d -o CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_qmake_CarHMI.cpp.o -c /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/qrc_qmake_CarHMI.cpp
 
 CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_qmake_CarHMI.cpp.i: cmake_force
@@ -229,7 +257,7 @@ CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_qmake_CarHMI.cpp.s: cmake_f
 CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/flags.make
 CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp.o: .rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp
 CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp.o -MF CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp.o.d -o CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp.o -c /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp
 
 CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp.i: cmake_force
@@ -243,7 +271,7 @@ CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlca
 CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/flags.make
 CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.o: .rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp
 CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.o -MF CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.o.d -o CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.o -c /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp
 
 CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.i: cmake_force
@@ -257,7 +285,7 @@ CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Ma
 CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/flags.make
 CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o: .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp
 CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o -MF CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o.d -o CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o -c /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp
 
 CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.i: cmake_force
@@ -268,10 +296,38 @@ CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/co
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp -o CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.s
 
+CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/flags.make
+CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o: .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp
+CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o -MF CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o.d -o CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o -c /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp
+
+CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp > CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.i
+
+CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp -o CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.s
+
+CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/flags.make
+CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o: .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp
+CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o -MF CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o.d -o CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o -c /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp
+
+CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp > CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.i
+
+CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp -o CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.s
+
 CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/flags.make
 CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp.o: .qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp
 CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp.o: CMakeFiles/car-hmi-with-cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp.o -MF CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp.o.d -o CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp.o -c /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp
 
 CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp.i: cmake_force
@@ -292,6 +348,8 @@ car__hmi__with__cursor_OBJECTS = \
 "CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp.o" \
 "CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.o" \
 "CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o" \
+"CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o" \
+"CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o" \
 "CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp.o"
 
 # External object files for target car-hmi-with-cursor
@@ -305,6 +363,8 @@ car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: CMakeFiles/car-hmi-w
 car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp.o
 car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.o
 car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o
+car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o
+car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o
 car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: CMakeFiles/car-hmi-with-cursor.dir/build/.qt/rcc/qrc_car-hmi-with-cursor_raw_qml_0.cpp.o
 car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: CMakeFiles/car-hmi-with-cursor.dir/build.make
 car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: /Users/sevgi/Qt/6.9.3/macos/lib/QtQuick.framework/Versions/A/QtQuick
@@ -317,7 +377,7 @@ car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: /Users/sevgi/Qt/6.9.
 car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: /Users/sevgi/Qt/6.9.3/macos/lib/QtGui.framework/Versions/A/QtGui
 car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: /Users/sevgi/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/QtCore
 car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor: CMakeFiles/car-hmi-with-cursor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable car-hmi-with-cursor.app/Contents/MacOS/car-hmi-with-cursor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/car-hmi-with-cursor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -333,14 +393,18 @@ CMakeFiles/car-hmi-with-cursor.dir/depend: .qt/rcc/qrc_qmake_CarHMI.cpp
 CMakeFiles/car-hmi-with-cursor.dir/depend: .rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp
 CMakeFiles/car-hmi-with-cursor.dir/depend: .rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp
 CMakeFiles/car-hmi-with-cursor.dir/depend: .rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.aotstats
+CMakeFiles/car-hmi-with-cursor.dir/depend: .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp
+CMakeFiles/car-hmi-with-cursor.dir/depend: .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.aotstats
+CMakeFiles/car-hmi-with-cursor.dir/depend: .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp
+CMakeFiles/car-hmi-with-cursor.dir/depend: .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.aotstats
 CMakeFiles/car-hmi-with-cursor.dir/depend: .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp
 CMakeFiles/car-hmi-with-cursor.dir/depend: .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.aotstats
 CMakeFiles/car-hmi-with-cursor.dir/depend: CarHMI/car-hmi-with-cursor.qmltypes
 CMakeFiles/car-hmi-with-cursor.dir/depend: car-hmi-with-cursor_autogen/timestamp
 CMakeFiles/car-hmi-with-cursor.dir/depend: car-hmi-with-cursor_qmltyperegistrations.cpp
 CMakeFiles/car-hmi-with-cursor.dir/depend: meta_types/car-hmi-with-cursor_json_file_list.txt
-CMakeFiles/car-hmi-with-cursor.dir/depend: meta_types/qt6car-hmi-with-cursor_release_metatypes.json
-CMakeFiles/car-hmi-with-cursor.dir/depend: meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen
+CMakeFiles/car-hmi-with-cursor.dir/depend: meta_types/qt6car-hmi-with-cursor_metatypes.json
+CMakeFiles/car-hmi-with-cursor.dir/depend: meta_types/qt6car-hmi-with-cursor_metatypes.json.gen
 	cd /Users/sevgi/car-hmi-with-cursor/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/sevgi/car-hmi-with-cursor /Users/sevgi/car-hmi-with-cursor /Users/sevgi/car-hmi-with-cursor/build /Users/sevgi/car-hmi-with-cursor/build /Users/sevgi/car-hmi-with-cursor/build/CMakeFiles/car-hmi-with-cursor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/car-hmi-with-cursor.dir/depend
 

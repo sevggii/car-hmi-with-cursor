@@ -489,6 +489,54 @@ build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/car-hmi-with-cursor.dir/build.make CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.s
 
+build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.o: build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/car-hmi-with-cursor.dir/build.make CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o
+
+build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.i: build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/car-hmi-with-cursor.dir/build.make CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.i
+
+build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.s: build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/car-hmi-with-cursor.dir/build.make CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.s
+
+build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.o: build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/car-hmi-with-cursor.dir/build.make CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o
+
+build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.i: build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/car-hmi-with-cursor.dir/build.make CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.i
+
+build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.s: build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/car-hmi-with-cursor.dir/build.make CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.s
+
 build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.o: build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.o
 
@@ -628,6 +676,12 @@ help:
 	@echo "... build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.o"
 	@echo "... build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.i"
 	@echo "... build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.s"
+	@echo "... build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.o"
+	@echo "... build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.i"
+	@echo "... build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.s"
+	@echo "... build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.o"
+	@echo "... build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.i"
+	@echo "... build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.s"
 	@echo "... build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.o"
 	@echo "... build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.i"
 	@echo "... build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.s"

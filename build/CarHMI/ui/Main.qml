@@ -5,414 +5,422 @@ import "components"
 
 Window {
     id: root
-    width: 1920
-    height: 720
+    width: 1600
+    height: 900
+    minimumWidth: 1280
+    minimumHeight: 720
     visible: true
     title: qsTr("Professional Car HMI Cluster")
     color: "#000000"
     
-    // PROFESSIONAL FIXED ARTBOARD - scales to window
+    // PROFESSIONAL FIXED ARTBOARD - Perfect scaling
     Item {
         id: artboard
-        anchors.centerIn: parent
+        anchors.fill: parent
+        anchors.rightMargin: controlPanel.width // Reserve space for control panel
         
-        // Scale to fit window while maintaining aspect ratio
-        width: 2560
-        height: 1080
-        scale: Math.min(root.width / width, root.height / height)
-        transformOrigin: Item.Center
+        clip: true
         
-        // Pure black background
-        Rectangle {
-            anchors.fill: parent
-            color: "#000000"
-        }
-        
-        // MAIN CLUSTER DISPLAY - Professional Layout
-        SpeedCluster {
-            anchors.fill: parent
+        // Scale content to fit available space
+        Item {
+            id: scaledContent
+            anchors.centerIn: parent
             
-            speed: mockCan.speed
-            rpm: mockCan.rpm
-            leftBlinker: mockCan.leftBlinker
-            rightBlinker: mockCan.rightBlinker
-            highBeam: mockCan.highBeam
-            fuel: mockCan.fuel
-            temperature: mockCan.temperature
-            gear: mockCan.gear
-            odometer: mockCan.odometer
-            tripMeter: mockCan.tripMeter
-            engineWarning: mockCan.engineWarning
-            oilWarning: mockCan.oilWarning
-            batteryWarning: mockCan.batteryWarning
+            width: 2560
+            height: 1080
+            scale: Math.min((artboard.width - 40) / width, (artboard.height - 40) / height)
+            transformOrigin: Item.Center
+            
+            // Pure black background
+            Rectangle {
+                anchors.fill: parent
+                color: "#000000"
+            }
+            
+            // MAIN CLUSTER DISPLAY
+            SpeedCluster {
+                anchors.fill: parent
+                
+                speed: mockCan.speed
+                rpm: mockCan.rpm
+                leftBlinker: mockCan.leftBlinker
+                rightBlinker: mockCan.rightBlinker
+                highBeam: mockCan.highBeam
+                fuel: mockCan.fuel
+                temperature: mockCan.temperature
+                gear: mockCan.gear
+                odometer: mockCan.odometer
+                tripMeter: mockCan.tripMeter
+                engineWarning: mockCan.engineWarning
+                oilWarning: mockCan.oilWarning
+                batteryWarning: mockCan.batteryWarning
+            }
         }
     }
     
-    // CONTROL PANEL - Outside artboard, on the right
+    // CONTROL PANEL - Fixed on right, always visible
     Rectangle {
         id: controlPanel
         anchors.right: parent.right
         anchors.top: parent.top
         anchors.bottom: parent.bottom
-        width: 380
+        width: 350
         color: "#1a1a1a"
         border.color: "#2a2a2a"
         border.width: 2
         
-        // Semi-transparent overlay
         opacity: 0.95
         
-        ColumnLayout {
+        Flickable {
             anchors.fill: parent
-            anchors.margins: 20
-            spacing: 20
+            anchors.margins: 15
+            contentHeight: controlContent.height
+            clip: true
             
-            Text {
-                text: "Control Panel"
-                font.pixelSize: 24
-                font.bold: true
-                color: "#00d4ff"
-                Layout.alignment: Qt.AlignHCenter
-            }
-            
-            Rectangle {
-                Layout.fillWidth: true
-                height: 1
-                color: "#2a2a2a"
-            }
-            
-            // Speed Control
-            ColumnLayout {
-                Layout.fillWidth: true
-                spacing: 8
-                
-                Text {
-                    text: "Speed: " + Math.round(mockCan.targetSpeed) + " km/h"
-                    font.pixelSize: 18
-                    color: "#ffffff"
-                }
-                
-                Slider {
-                    Layout.fillWidth: true
-                    from: 0
-                    to: 240
-                    value: mockCan.targetSpeed
-                    onValueChanged: mockCan.setTargetSpeed(value)
-                    
-                    background: Rectangle {
-                        x: parent.leftPadding
-                        y: parent.topPadding + parent.availableHeight / 2 - height / 2
-                        width: parent.availableWidth
-                        height: 6
-                        radius: 3
-                        color: "#2a2a2a"
-                        
-                        Rectangle {
-                            width: parent.parent.visualPosition * parent.width
-                            height: parent.height
-                            color: "#00d4ff"
-                            radius: 3
-                        }
-                    }
-                    
-                    handle: Rectangle {
-                        x: parent.leftPadding + parent.visualPosition * (parent.availableWidth - width)
-                        y: parent.topPadding + parent.availableHeight / 2 - height / 2
-                        width: 20
-                        height: 20
-                        radius: 10
-                        color: parent.pressed ? "#00a8cc" : "#00d4ff"
-                        border.color: "#ffffff"
-                        border.width: 2
-                    }
-                }
-            }
-            
-            // RPM Control
-            ColumnLayout {
-                Layout.fillWidth: true
-                spacing: 8
-                
-                Text {
-                    text: "RPM: " + Math.round(mockCan.targetRpm)
-                    font.pixelSize: 18
-                    color: "#ffffff"
-                }
-                
-                Slider {
-                    Layout.fillWidth: true
-                    from: 0
-                    to: 8000
-                    value: mockCan.targetRpm
-                    onValueChanged: mockCan.setTargetRpm(value)
-                    
-                    background: Rectangle {
-                        x: parent.leftPadding
-                        y: parent.topPadding + parent.availableHeight / 2 - height / 2
-                        width: parent.availableWidth
-                        height: 6
-                        radius: 3
-                        color: "#2a2a2a"
-                        
-                        Rectangle {
-                            width: parent.parent.visualPosition * parent.width
-                            height: parent.height
-                            color: "#ff4444"
-                            radius: 3
-                        }
-                    }
-                    
-                    handle: Rectangle {
-                        x: parent.leftPadding + parent.visualPosition * (parent.availableWidth - width)
-                        y: parent.topPadding + parent.availableHeight / 2 - height / 2
-                        width: 20
-                        height: 20
-                        radius: 10
-                        color: parent.pressed ? "#cc3333" : "#ff4444"
-                        border.color: "#ffffff"
-                        border.width: 2
-                    }
-                }
-            }
-            
-            Rectangle {
-                Layout.fillWidth: true
-                height: 1
-                color: "#2a2a2a"
-            }
-            
-            // Indicator Controls
-            Text {
-                text: "Indicators"
-                font.pixelSize: 20
-                font.bold: true
-                color: "#00d4ff"
-                Layout.topMargin: 10
-            }
-            
-            Row {
-                Layout.fillWidth: true
+            Column {
+                id: controlContent
+                width: parent.width
                 spacing: 15
                 
-                CheckBox {
-                    checked: false
-                    onCheckedChanged: mockCan.setLeftBlinker(checked)
-                    
-                    indicator: Rectangle {
-                        width: 24
-                        height: 24
-                        radius: 4
-                        border.color: "#00d4ff"
-                        border.width: 2
-                        color: parent.checked ? "#00d4ff" : "transparent"
-                        
-                        Text {
-                            anchors.centerIn: parent
-                            text: "✓"
-                            color: "#0a0a0a"
-                            font.pixelSize: 16
-                            font.bold: true
-                            visible: parent.parent.checked
-                        }
-                    }
-                }
-                
                 Text {
-                    text: "← Left Blinker"
-                    font.pixelSize: 16
-                    color: "#ffffff"
-                    anchors.verticalCenter: parent.verticalCenter
-                }
-            }
-            
-            Row {
-                Layout.fillWidth: true
-                spacing: 15
-                
-                CheckBox {
-                    checked: false
-                    onCheckedChanged: mockCan.setRightBlinker(checked)
-                    
-                    indicator: Rectangle {
-                        width: 24
-                        height: 24
-                        radius: 4
-                        border.color: "#00d4ff"
-                        border.width: 2
-                        color: parent.checked ? "#00d4ff" : "transparent"
-                        
-                        Text {
-                            anchors.centerIn: parent
-                            text: "✓"
-                            color: "#0a0a0a"
-                            font.pixelSize: 16
-                            font.bold: true
-                            visible: parent.parent.checked
-                        }
-                    }
-                }
-                
-                Text {
-                    text: "Right Blinker →"
-                    font.pixelSize: 16
-                    color: "#ffffff"
-                    anchors.verticalCenter: parent.verticalCenter
-                }
-            }
-            
-            Row {
-                Layout.fillWidth: true
-                spacing: 15
-                
-                CheckBox {
-                    checked: false
-                    onCheckedChanged: mockCan.setHighBeam(checked)
-                    
-                    indicator: Rectangle {
-                        width: 24
-                        height: 24
-                        radius: 4
-                        border.color: "#00d4ff"
-                        border.width: 2
-                        color: parent.checked ? "#00d4ff" : "transparent"
-                        
-                        Text {
-                            anchors.centerIn: parent
-                            text: "✓"
-                            color: "#0a0a0a"
-                            font.pixelSize: 16
-                            font.bold: true
-                            visible: parent.parent.checked
-                        }
-                    }
-                }
-                
-                Text {
-                    text: "High Beam"
-                    font.pixelSize: 16
-                    color: "#ffffff"
-                    anchors.verticalCenter: parent.verticalCenter
-                }
-            }
-            
-            Rectangle {
-                Layout.fillWidth: true
-                height: 1
-                color: "#2a2a2a"
-            }
-            
-            // Vehicle Status
-            Text {
-                text: "Vehicle Status"
-                font.pixelSize: 20
-                font.bold: true
-                color: "#00d4ff"
-                Layout.topMargin: 10
-            }
-            
-            Row {
-                Layout.fillWidth: true
-                spacing: 10
-                
-                Text {
-                    text: "Gear:"
-                    font.pixelSize: 16
-                    color: "#ffffff"
-                    anchors.verticalCenter: parent.verticalCenter
+                    text: "Control Panel"
+                    font.pixelSize: 22
+                    font.bold: true
+                    color: "#00d4ff"
+                    anchors.horizontalCenter: parent.horizontalCenter
                 }
                 
                 Rectangle {
-                    width: 50
-                    height: 50
-                    radius: 25
-                    color: mockCan.gear === "P" ? "#ff8800" : "#00ff88"
-                    border.color: "#ffffff"
-                    border.width: 2
+                    width: parent.width
+                    height: 1
+                    color: "#2a2a2a"
+                }
+                
+                // Speed Control
+                Column {
+                    width: parent.width
+                    spacing: 6
                     
                     Text {
-                        text: mockCan.gear
-                        font.pixelSize: 28
-                        font.bold: true
-                        color: "#000000"
-                        anchors.centerIn: parent
-                    }
-                }
-            }
-            
-            Row {
-                Layout.fillWidth: true
-                spacing: 20
-                
-                Column {
-                    spacing: 5
-                    Text {
-                        text: "⛽ Fuel"
-                        font.pixelSize: 14
+                        text: "Speed: " + Math.round(mockCan.targetSpeed) + " km/h"
+                        font.pixelSize: 16
                         color: "#ffffff"
                     }
-                    Text {
-                        text: Math.round(mockCan.fuel) + "%"
-                        font.pixelSize: 20
-                        font.bold: true
-                        color: mockCan.fuel < 20 ? "#ff4444" : "#00ff88"
+                    
+                    Slider {
+                        width: parent.width
+                        from: 0
+                        to: 240
+                        value: mockCan.targetSpeed
+                        onValueChanged: mockCan.setTargetSpeed(value)
+                        
+                        background: Rectangle {
+                            x: parent.leftPadding
+                            y: parent.topPadding + parent.availableHeight / 2 - height / 2
+                            width: parent.availableWidth
+                            height: 5
+                            radius: 2.5
+                            color: "#2a2a2a"
+                            
+                            Rectangle {
+                                width: parent.parent.visualPosition * parent.width
+                                height: parent.height
+                                color: "#00d4ff"
+                                radius: 2.5
+                            }
+                        }
+                        
+                        handle: Rectangle {
+                            x: parent.leftPadding + parent.visualPosition * (parent.availableWidth - width)
+                            y: parent.topPadding + parent.availableHeight / 2 - height / 2
+                            width: 18
+                            height: 18
+                            radius: 9
+                            color: parent.pressed ? "#00a8cc" : "#00d4ff"
+                            border.color: "#ffffff"
+                            border.width: 2
+                        }
                     }
                 }
                 
+                // RPM Control
                 Column {
-                    spacing: 5
+                    width: parent.width
+                    spacing: 6
+                    
                     Text {
-                        text: "🌡 Temp"
-                        font.pixelSize: 14
+                        text: "RPM: " + Math.round(mockCan.targetRpm)
+                        font.pixelSize: 16
                         color: "#ffffff"
                     }
-                    Text {
-                        text: Math.round(mockCan.temperature) + "°C"
-                        font.pixelSize: 20
-                        font.bold: true
-                        color: mockCan.temperature > 110 ? "#ff4444" : "#00d4ff"
+                    
+                    Slider {
+                        width: parent.width
+                        from: 0
+                        to: 8000
+                        value: mockCan.targetRpm
+                        onValueChanged: mockCan.setTargetRpm(value)
+                        
+                        background: Rectangle {
+                            x: parent.leftPadding
+                            y: parent.topPadding + parent.availableHeight / 2 - height / 2
+                            width: parent.availableWidth
+                            height: 5
+                            radius: 2.5
+                            color: "#2a2a2a"
+                            
+                            Rectangle {
+                                width: parent.parent.visualPosition * parent.width
+                                height: parent.height
+                                color: "#ff4444"
+                                radius: 2.5
+                            }
+                        }
+                        
+                        handle: Rectangle {
+                            x: parent.leftPadding + parent.visualPosition * (parent.availableWidth - width)
+                            y: parent.topPadding + parent.availableHeight / 2 - height / 2
+                            width: 18
+                            height: 18
+                            radius: 9
+                            color: parent.pressed ? "#cc3333" : "#ff4444"
+                            border.color: "#ffffff"
+                            border.width: 2
+                        }
                     }
                 }
-            }
-            
-            Column {
-                Layout.fillWidth: true
-                spacing: 8
+                
+                Rectangle {
+                    width: parent.width
+                    height: 1
+                    color: "#2a2a2a"
+                }
+                
+                // Indicators
+                Text {
+                    text: "Indicators"
+                    font.pixelSize: 18
+                    font.bold: true
+                    color: "#00d4ff"
+                }
                 
                 Row {
+                    width: parent.width
                     spacing: 10
-                    Text {
-                        text: "ODO:"
-                        font.pixelSize: 14
-                        color: "#6a6a6a"
+                    
+                    CheckBox {
+                        checked: false
+                        onCheckedChanged: mockCan.setLeftBlinker(checked)
+                        
+                        indicator: Rectangle {
+                            width: 20
+                            height: 20
+                            radius: 3
+                            border.color: "#00d4ff"
+                            border.width: 2
+                            color: parent.checked ? "#00d4ff" : "transparent"
+                            
+                            Text {
+                                anchors.centerIn: parent
+                                text: "✓"
+                                color: "#0a0a0a"
+                                font.pixelSize: 14
+                                font.bold: true
+                                visible: parent.parent.checked
+                            }
+                        }
                     }
+                    
                     Text {
-                        text: mockCan.odometer.toFixed(1) + " km"
+                        text: "← Left Blinker"
                         font.pixelSize: 14
-                        font.bold: true
-                        font.family: "Courier New"
-                        color: "#00d4ff"
+                        color: "#ffffff"
+                        anchors.verticalCenter: parent.verticalCenter
                     }
                 }
                 
                 Row {
+                    width: parent.width
                     spacing: 10
-                    Text {
-                        text: "TRIP:"
-                        font.pixelSize: 14
-                        color: "#6a6a6a"
+                    
+                    CheckBox {
+                        checked: false
+                        onCheckedChanged: mockCan.setRightBlinker(checked)
+                        
+                        indicator: Rectangle {
+                            width: 20
+                            height: 20
+                            radius: 3
+                            border.color: "#00d4ff"
+                            border.width: 2
+                            color: parent.checked ? "#00d4ff" : "transparent"
+                            
+                            Text {
+                                anchors.centerIn: parent
+                                text: "✓"
+                                color: "#0a0a0a"
+                                font.pixelSize: 14
+                                font.bold: true
+                                visible: parent.parent.checked
+                            }
+                        }
                     }
+                    
                     Text {
-                        text: mockCan.tripMeter.toFixed(2) + " km"
+                        text: "Right Blinker →"
                         font.pixelSize: 14
-                        font.bold: true
-                        font.family: "Courier New"
                         color: "#ffffff"
+                        anchors.verticalCenter: parent.verticalCenter
                     }
                 }
-            }
-            
-            Item {
-                Layout.fillHeight: true
+                
+                Row {
+                    width: parent.width
+                    spacing: 10
+                    
+                    CheckBox {
+                        checked: false
+                        onCheckedChanged: mockCan.setHighBeam(checked)
+                        
+                        indicator: Rectangle {
+                            width: 20
+                            height: 20
+                            radius: 3
+                            border.color: "#00d4ff"
+                            border.width: 2
+                            color: parent.checked ? "#00d4ff" : "transparent"
+                            
+                            Text {
+                                anchors.centerIn: parent
+                                text: "✓"
+                                color: "#0a0a0a"
+                                font.pixelSize: 14
+                                font.bold: true
+                                visible: parent.parent.checked
+                            }
+                        }
+                    }
+                    
+                    Text {
+                        text: "High Beam"
+                        font.pixelSize: 14
+                        color: "#ffffff"
+                        anchors.verticalCenter: parent.verticalCenter
+                    }
+                }
+                
+                Rectangle {
+                    width: parent.width
+                    height: 1
+                    color: "#2a2a2a"
+                }
+                
+                // Vehicle Status
+                Text {
+                    text: "Vehicle Status"
+                    font.pixelSize: 18
+                    font.bold: true
+                    color: "#00d4ff"
+                }
+                
+                Row {
+                    width: parent.width
+                    spacing: 8
+                    
+                    Text {
+                        text: "Gear:"
+                        font.pixelSize: 14
+                        color: "#ffffff"
+                        anchors.verticalCenter: parent.verticalCenter
+                    }
+                    
+                    Rectangle {
+                        width: 45
+                        height: 45
+                        radius: 22.5
+                        color: mockCan.gear === "P" ? "#ff8800" : "#00ff88"
+                        border.color: "#ffffff"
+                        border.width: 2
+                        
+                        Text {
+                            text: mockCan.gear
+                            font.pixelSize: 24
+                            font.bold: true
+                            color: "#000000"
+                            anchors.centerIn: parent
+                        }
+                    }
+                }
+                
+                Row {
+                    width: parent.width
+                    spacing: 15
+                    
+                    Column {
+                        spacing: 4
+                        Text {
+                            text: "⛽ Fuel"
+                            font.pixelSize: 12
+                            color: "#ffffff"
+                        }
+                        Text {
+                            text: Math.round(mockCan.fuel) + "%"
+                            font.pixelSize: 18
+                            font.bold: true
+                            color: mockCan.fuel < 20 ? "#ff4444" : "#00ff88"
+                        }
+                    }
+                    
+                    Column {
+                        spacing: 4
+                        Text {
+                            text: "🌡 Temp"
+                            font.pixelSize: 12
+                            color: "#ffffff"
+                        }
+                        Text {
+                            text: Math.round(mockCan.temperature) + "°C"
+                            font.pixelSize: 18
+                            font.bold: true
+                            color: mockCan.temperature > 110 ? "#ff4444" : "#00d4ff"
+                        }
+                    }
+                }
+                
+                Column {
+                    width: parent.width
+                    spacing: 6
+                    
+                    Row {
+                        spacing: 8
+                        Text {
+                            text: "ODO:"
+                            font.pixelSize: 12
+                            color: "#6a6a6a"
+                        }
+                        Text {
+                            text: mockCan.odometer.toFixed(1) + " km"
+                            font.pixelSize: 12
+                            font.bold: true
+                            color: "#00d4ff"
+                        }
+                    }
+                    
+                    Row {
+                        spacing: 8
+                        Text {
+                            text: "TRIP:"
+                            font.pixelSize: 12
+                            color: "#6a6a6a"
+                        }
+                        Text {
+                            text: mockCan.tripMeter.toFixed(2) + " km"
+                            font.pixelSize: 12
+                            font.bold: true
+                            color: "#ffffff"
+                        }
+                    }
+                }
             }
         }
     }

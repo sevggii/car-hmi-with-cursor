@@ -31,6 +31,6 @@ set(qml_import_scanner_import_28 "CLASSNAME;QtQuick_Controls_iOS_implPlugin;COMP
 set(qml_import_scanner_import_29 "CLASSNAME;QtQuickControls2BasicStyleImplPlugin;LINKTARGET;Qt6::qtquickcontrols2basicstyleimplplugin;NAME;QtQuick.Controls.Basic.impl;PATH;/Users/sevgi/Qt/6.9.3/macos/qml/QtQuick/Controls/Basic/impl;PLUGIN;qtquickcontrols2basicstyleimplplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/Controls/Basic/impl/;RELATIVEPATH;QtQuick/Controls/Basic/impl;TYPE;module;")
 set(qml_import_scanner_import_30 "CLASSNAME;QtQmlLabsModelsPlugin;LINKTARGET;Qt6::labsmodelsplugin;NAME;Qt.labs.qmlmodels;PATH;/Users/sevgi/Qt/6.9.3/macos/qml/Qt/labs/qmlmodels;PLUGIN;labsmodelsplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/Qt/labs/qmlmodels/;RELATIVEPATH;Qt/labs/qmlmodels;TYPE;module;")
 set(qml_import_scanner_import_31 "NAME;components;PATH;/Users/sevgi/car-hmi-with-cursor/ui/components;TYPE;directory;")
-set(qml_import_scanner_import_32 "NAME;components;PATH;/Users/sevgi/car-hmi-with-cursor/build/CarHMI/ui/components;TYPE;directory;")
-set(qml_import_scanner_import_33 "NAME;components;PATH;/Users/sevgi/car-hmi-with-cursor/build/Qt_6_9_3_for_macOS-Debug/CarHMI/ui/components;TYPE;directory;")
+set(qml_import_scanner_import_32 "CLASSNAME;QQuick3DPlugin;COMPONENTS;/Users/sevgi/Qt/6.9.3/macos/qml/QtQuick3D/LightmapperOutputWindow.qml;LINKTARGET;Qt6::qquick3dplugin;NAME;QtQuick3D;PATH;/Users/sevgi/Qt/6.9.3/macos/qml/QtQuick3D;PLUGIN;qquick3dplugin;PREFER;:/qt-project.org/imports/QtQuick3D/;RELATIVEPATH;QtQuick3D;TYPE;module;")
+set(qml_import_scanner_import_33 "NAME;components;PATH;/Users/sevgi/car-hmi-with-cursor/build/CarHMI/ui/components;TYPE;directory;")
 

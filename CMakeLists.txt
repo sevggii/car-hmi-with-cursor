@@ -27,6 +27,8 @@ qt_add_qml_module(car-hmi-with-cursor
     QML_FILES
         ui/Main.qml
         ui/components/SpeedCluster.qml
+        ui/components/RealisticCar3D.qml
+        ui/components/InteractiveCar.qml
 )
 
 target_link_libraries(car-hmi-with-cursor PRIVATE

@@ -7,6 +7,8 @@ def566710d71e9e70da59a95952c24eb .qt/car-hmi-with-cursor_qml.txt
 c5ace741b9200db13660368d40d7c0d7 .rcc/qmlcache/all_aotstats.aotstats
 f10f3bd27c6256d6a0f571d0fe11f843 .rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp
 59e697e132e9f9423f0b2ce3814d8f67 .rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp
+5d672018955ee0d11629fdc26f49febe .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp
+c0db834c5ca4e4db72df7877f0f37ed8 .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp
 8614bb3620464d338a83f17baed585f8 .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp
 91e7494c72e6612cab1561879af3f969 .rcc/qmlcache/module_car-hmi-with-cursor.aotstats
 fdc38e307a48e5c3e4c0ab0a4f6f7d51 CMakeFiles/all_aotstats
@@ -19,8 +21,8 @@ f9271d47275074f598d72d9c1e9b60aa CMakeFiles/car-hmi-with-cursor_qmlimportscan
 3cbf44f6e672f1d63b8bbc2d370b794c CMakeFiles/car-hmi-with-cursor_qmllint_module
 f9271d47275074f598d72d9c1e9b60aa CMakeFiles/car-hmi-with-cursor_qmltyperegistration
 f9271d47275074f598d72d9c1e9b60aa CMakeFiles/module_car-hmi-with-cursor_aotstats_target
-72cb26a66033e2b78f3a2b88a16e1166 car-hmi-with-cursor_autogen/timestamp
-5e261a1c1234b8a9980e1b6beeec7062 car-hmi-with-cursor_qmltyperegistrations.cpp
+eac0e8c5e17ec133e71a907d1b3f3dc1 car-hmi-with-cursor_autogen/timestamp
+5ff1348dd4856cd6ccb680c45aaf2c84 car-hmi-with-cursor_qmltyperegistrations.cpp
 5cbe4e93df0c5309f18b9e20803cbd94 meta_types/car-hmi-with-cursor_json_file_list.txt
-cc4dcde4a777ea27e07dbd3b34e8b3d7 meta_types/qt6car-hmi-with-cursor_release_metatypes.json
-dfb12a6bd29be8e35bd52002b45109da meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen
+cc4dcde4a777ea27e07dbd3b34e8b3d7 meta_types/qt6car-hmi-with-cursor_metatypes.json
+68641b5c4d7bc9240d7ebc63d8f2ce9b meta_types/qt6car-hmi-with-cursor_metatypes.json.gen

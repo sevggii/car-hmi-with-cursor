@@ -2,15 +2,15 @@
 
 A professional automotive cluster HMI simulation built with Qt 6 and QML, featuring a speedometer, tachometer, gear indicator, fuel/temperature gauges, turn signals, high beam, and warning lights with stunning glow effects and smooth animations.
 
-## 🎬 Demo
+## 🎬 Live Demo
 
 <p align="center">
   <img src="docs/images/cluster-animated.svg" width="800" alt="Car HMI Cluster - Animated Demo"/>
 </p>
 
 <p align="center">
-  <em>🎨 Animated representation of the car HMI cluster interface</em><br/>
-  <sub>Watch the needle move, indicators blink, and values change in real-time! ✨</sub>
+  <em>✨ Professional automotive cluster running in real-time!</em><br/>
+  <sub>Smooth animations • Dynamic gauges • Interactive controls • 30 FPS updates</sub>
 </p>
 
 ### Live Application Features

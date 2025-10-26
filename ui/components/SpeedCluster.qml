@@ -395,42 +395,69 @@ Item {
         }
     }
     
-    // CENTER PANEL - Vehicle info
-    // Position: x=840, y=280, w=880, h=520
-    Rectangle {
+    // CENTER PANEL - Interactive 3D Vehicle (NO BOX, seamless)
+    // Position: x=840, y=200, w=880, h=680
+    Item {
         x: 840
-        y: 280
+        y: 200
         width: 880
-        height: 520
-        radius: 30
+        height: 680
         
-        gradient: Gradient {
-            GradientStop { position: 0.0; color: "#14141c" }
-            GradientStop { position: 0.5; color: "#0f0f16" }
-            GradientStop { position: 1.0; color: "#14141c" }
-        }
-        
-        border.color: "#25252f"
-        border.width: 2
-        
-        // Glass reflection
+        // Subtle depth lighting - no box
         Rectangle {
             anchors.fill: parent
-            anchors.margins: 2
-            radius: parent.radius - 2
+            anchors.margins: -40
+            radius: 180
+            opacity: 0.15
             gradient: Gradient {
-                GradientStop { position: 0.0; color: "#15ffffff" }
-                GradientStop { position: 0.2; color: "transparent" }
+                orientation: Gradient.Vertical
+                GradientStop { position: 0.0; color: Qt.rgba(0, 0.4, 0.6, 0.3) }
+                GradientStop { position: 0.5; color: "transparent" }
+                GradientStop { position: 1.0; color: Qt.rgba(0.6, 0.4, 0, 0.2) }
             }
         }
         
-        // GEAR Display
+        // Ambient glow around car
         Rectangle {
-            width: 140
-            height: 140
-            radius: 70
+            anchors.centerIn: parent
+            width: parent.width * 1.3
+            height: parent.height * 0.8
+            radius: width / 2
+            opacity: speedFactor * 0.25
+            gradient: Gradient {
+                GradientStop { position: 0.0; color: "transparent" }
+                GradientStop { position: 0.5; color: colorCyan }
+                GradientStop { position: 1.0; color: "transparent" }
+            }
+            
+            Behavior on opacity {
+                NumberAnimation { duration: 1000 }
+            }
+        }
+        
+        // REALISTIC LUXURY CAR - Canvas based, works perfectly!
+        RealisticCar3D {
+            id: luxuryCar
+            anchors.centerIn: parent
+            anchors.verticalCenterOffset: -40
+            width: parent.width - 40
+            height: parent.height - 80
+            
+            lightsOn: root.highBeam
+            rotationY: (root.leftBlinker ? -3 : 0) + (root.rightBlinker ? 3 : 0)
+            
+            onPartClicked: function(part) {
+                console.log("Car part clicked:", part)
+            }
+        }
+        
+        // GEAR Display - below car
+        Rectangle {
+            width: 120
+            height: 120
+            radius: 60
             anchors.horizontalCenter: parent.horizontalCenter
-            y: 60
+            y: parent.height - 135
             
             gradient: Gradient {
                 GradientStop { position: 0.0; color: "#18181f" }
@@ -438,26 +465,26 @@ Item {
             }
             
             border.color: root.gear === "P" ? colorAmber : root.gear === "N" ? "#ffdd00" : colorCyan
-            border.width: 5
+            border.width: 4
             
             // Glow rings
             Repeater {
-                model: 3
+                model: 2
                 Rectangle {
                     anchors.centerIn: parent
-                    width: parent.width + (index + 1) * 16
-                    height: parent.height + (index + 1) * 16
+                    width: parent.width + (index + 1) * 14
+                    height: parent.height + (index + 1) * 14
                     radius: width / 2
                     color: "transparent"
                     border.color: parent.border.color
                     border.width: 1
-                    opacity: 0.3 - (index * 0.08)
+                    opacity: 0.25 - (index * 0.08)
                 }
             }
             
             Text {
                 text: root.gear
-                font.pixelSize: 80
+                font.pixelSize: 68
                 font.weight: Font.Thin
                 color: parent.border.color
                 anchors.centerIn: parent
@@ -470,201 +497,116 @@ Item {
                 }
             }
         }
-        
-        // Vehicle status
-        Row {
-            anchors.horizontalCenter: parent.horizontalCenter
-            y: 250
-            spacing: 60
-            
-            // Fuel
-            Column {
-                spacing: 8
-                Rectangle {
-                    width: 50
-                    height: 50
-                    radius: 25
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    
-                    gradient: Gradient {
-                        GradientStop { position: 0.0; color: root.fuel < 20 ? "#FF3B3B30" : "#FFA63A25" }
-                        GradientStop { position: 1.0; color: "#0a0a0f" }
-                    }
-                    
-                    border.color: root.fuel < 20 ? colorDangerRed : colorAmber
-                    border.width: 2.5
-                    
-                    Text {
-                        text: "⛽"
-                        font.pixelSize: 26
-                        color: root.fuel < 20 ? colorDangerRed : colorAmber
-                        anchors.centerIn: parent
-                    }
-                }
-                Text {
-                    text: Math.round(root.fuel) + "%"
-                    font.pixelSize: 18
-                    font.bold: true
-                    color: root.fuel < 20 ? colorDangerRed : "#90909a"
-                    anchors.horizontalCenter: parent.horizontalCenter
-                }
-            }
-            
-            // Temperature
-            Column {
-                spacing: 8
-                Rectangle {
-                    width: 50
-                    height: 50
-                    radius: 25
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    
-                    gradient: Gradient {
-                        GradientStop { position: 0.0; color: root.temperature > 105 ? "#FF3B3B30" : "#0AA9FF25" }
-                        GradientStop { position: 1.0; color: "#0a0a0f" }
-                    }
-                    
-                    border.color: root.temperature > 105 ? colorDangerRed : colorNeonBlue
-                    border.width: 2.5
-                    
-                    Text {
-                        text: "🌡"
-                        font.pixelSize: 24
-                        anchors.centerIn: parent
-                    }
-                }
-                Text {
-                    text: Math.round(root.temperature) + "°C"
-                    font.pixelSize: 18
-                    font.bold: true
-                    color: root.temperature > 105 ? colorDangerRed : colorNeonBlue
-                    anchors.horizontalCenter: parent.horizontalCenter
-                }
-            }
-        }
-        
-        // Warning lights
-        Row {
-            anchors.horizontalCenter: parent.horizontalCenter
-            y: 380
-            spacing: 20
-            
-            Rectangle {
-                width: 50
-                height: 50
-                radius: 12
-                color: root.highBeam ? "#0AA9FF35" : "#0a0a0f"
-                border.color: root.highBeam ? colorNeonBlue : "#20202a"
-                border.width: 2
-                
-                Text {
-                    text: "◉"
-                    font.pixelSize: 32
-                    font.bold: true
-                    color: root.highBeam ? colorNeonBlue : "#25252f"
-                    anchors.centerIn: parent
-                }
-            }
-            
-            Rectangle {
-                width: 50
-                height: 50
-                radius: 12
-                color: root.engineWarning ? "#FF3B3B35" : "#0a0a0f"
-                border.color: root.engineWarning ? colorDangerRed : "#20202a"
-                border.width: 2
-                
-                Text {
-                    text: "⚠"
-                    font.pixelSize: 30
-                    color: root.engineWarning ? colorDangerRed : "#25252f"
-                    anchors.centerIn: parent
-                }
-                
-                SequentialAnimation on opacity {
-                    running: root.engineWarning
-                    loops: Animation.Infinite
-                    NumberAnimation { from: 1.0; to: 0.5; duration: 600 }
-                    NumberAnimation { from: 0.5; to: 1.0; duration: 600 }
-                }
-            }
-        }
     }
     
-    // TURN SIGNALS
-    // Left signal: x=1140, y=480
+    // TURN SIGNALS - Positioned on sides near car
+    // Left signal: x=760, y=380 (left of center panel)
     Rectangle {
-        x: 1140
-        y: 480
-        width: 80
-        height: 80
-        radius: 40
+        x: 760
+        y: 380
+        width: 65
+        height: 65
+        radius: 32.5
         
         gradient: Gradient {
-            GradientStop { position: 0.0; color: root.leftBlinker ? "#FFA63A50" : "#0a0a10" }
-            GradientStop { position: 1.0; color: "#08080c" }
+            GradientStop { position: 0.0; color: root.leftBlinker ? "#FFA63A" : "#1a1a24" }
+            GradientStop { position: 1.0; color: root.leftBlinker ? "#FF8520" : "#08080c" }
         }
         
-        border.color: root.leftBlinker ? colorAmber : "#1a1a24"
-        border.width: 3
+        border.color: root.leftBlinker ? "#FFFFFF" : "#252530"
+        border.width: 2
         
         Text {
             text: "◄"
-            font.pixelSize: 48
+            font.pixelSize: 42
             font.bold: true
-            color: root.leftBlinker ? colorAmber : "#20202a"
+            color: root.leftBlinker ? "#FFFFFF" : "#30303a"
             anchors.centerIn: parent
             
             layer.enabled: root.leftBlinker
             layer.effect: MultiEffect {
                 blurEnabled: true
-                blur: 0.6
+                blur: 0.8
+                brightness: 0.4
             }
         }
         
-        SequentialAnimation on scale {
+        SequentialAnimation on opacity {
             running: root.leftBlinker
             loops: Animation.Infinite
-            NumberAnimation { from: 1.0; to: 1.2; duration: 250 }
-            NumberAnimation { from: 1.2; to: 1.0; duration: 250 }
+            NumberAnimation { from: 1.0; to: 0.3; duration: 250 }
+            NumberAnimation { from: 0.3; to: 1.0; duration: 250 }
+        }
+        
+        // Glow effect
+        Rectangle {
+            anchors.centerIn: parent
+            width: parent.width + 20
+            height: parent.height + 20
+            radius: width / 2
+            color: "transparent"
+            border.color: colorAmber
+            border.width: 2
+            opacity: root.leftBlinker ? 0.5 : 0
+            
+            Behavior on opacity {
+                NumberAnimation { duration: 100 }
+            }
         }
     }
     
-    // Right signal: x=1340, y=480
+    // Right signal: x=1735, y=380 (right of center panel)
     Rectangle {
-        x: 1340
-        y: 480
-        width: 80
-        height: 80
-        radius: 40
+        x: 1735
+        y: 380
+        width: 65
+        height: 65
+        radius: 32.5
         
         gradient: Gradient {
-            GradientStop { position: 0.0; color: root.rightBlinker ? "#FFA63A50" : "#0a0a10" }
-            GradientStop { position: 1.0; color: "#08080c" }
+            GradientStop { position: 0.0; color: root.rightBlinker ? "#FFA63A" : "#1a1a24" }
+            GradientStop { position: 1.0; color: root.rightBlinker ? "#FF8520" : "#08080c" }
         }
         
-        border.color: root.rightBlinker ? colorAmber : "#1a1a24"
-        border.width: 3
+        border.color: root.rightBlinker ? "#FFFFFF" : "#252530"
+        border.width: 2
         
         Text {
             text: "►"
-            font.pixelSize: 48
+            font.pixelSize: 42
             font.bold: true
-            color: root.rightBlinker ? colorAmber : "#20202a"
+            color: root.rightBlinker ? "#FFFFFF" : "#30303a"
             anchors.centerIn: parent
             
             layer.enabled: root.rightBlinker
             layer.effect: MultiEffect {
                 blurEnabled: true
-                blur: 0.6
+                blur: 0.8
+                brightness: 0.4
             }
         }
         
-        SequentialAnimation on scale {
+        SequentialAnimation on opacity {
             running: root.rightBlinker
             loops: Animation.Infinite
-            NumberAnimation { from: 1.0; to: 1.2; duration: 250 }
-            NumberAnimation { from: 1.2; to: 1.0; duration: 250 }
+            NumberAnimation { from: 1.0; to: 0.3; duration: 250 }
+            NumberAnimation { from: 0.3; to: 1.0; duration: 250 }
+        }
+        
+        // Glow effect
+        Rectangle {
+            anchors.centerIn: parent
+            width: parent.width + 20
+            height: parent.height + 20
+            radius: width / 2
+            color: "transparent"
+            border.color: colorAmber
+            border.width: 2
+            opacity: root.rightBlinker ? 0.5 : 0
+            
+            Behavior on opacity {
+                NumberAnimation { duration: 100 }
+            }
         }
     }
     

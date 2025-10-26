@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   ".rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp"
   ".rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp"
+  ".rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.aotstats"
+  ".rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp"
+  ".rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.aotstats"
   ".rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp"
   ".rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.aotstats"
   ".rcc/qmlcache/module_car-hmi-with-cursor.aotstats"

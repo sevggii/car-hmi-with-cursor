@@ -4,3 +4,5 @@
 /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc
 /CarHMI/ui/Main.qml
 /CarHMI/ui/components/SpeedCluster.qml
+/CarHMI/ui/components/RealisticCar3D.qml
+/CarHMI/ui/components/InteractiveCar.qml

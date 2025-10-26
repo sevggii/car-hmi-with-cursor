@@ -6,5 +6,7 @@ CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPE
 
 CXX_INCLUDES = -I/Users/sevgi/car-hmi-with-cursor/build/car-hmi-with-cursor_autogen/include -I/Users/sevgi/car-hmi-with-cursor/signals -I/Users/sevgi/car-hmi-with-cursor -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtQml.framework/Versions/A/Headers/6.9.3 -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtQml.framework/Versions/A/Headers/6.9.3/QtQml -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/6.9.3 -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtCore.framework/Versions/A/Headers/6.9.3/QtCore -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtCore.framework/Headers -iframework /Users/sevgi/Qt/6.9.3/macos/lib -isystem /Users/sevgi/Qt/6.9.3/macos/mkspecs/macx-clang -isystem /Users/sevgi/Qt/6.9.3/macos/include -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtQml.framework/Headers -isystem /Users/sevgi/Qt/6.9.3/macos/include/QtQmlIntegration -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtNetwork.framework/Headers -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtGui.framework/Headers -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtQuick.framework/Headers -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtQmlMeta.framework/Headers -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtQmlModels.framework/Headers -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtQmlWorkerScript.framework/Headers -isystem /Users/sevgi/Qt/6.9.3/macos/lib/QtOpenGL.framework/Headers
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk
+CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk
+
+CXX_FLAGS = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk
 

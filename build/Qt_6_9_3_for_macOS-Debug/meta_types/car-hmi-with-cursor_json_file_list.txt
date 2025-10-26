@@ -1,1 +1,0 @@
-/Users/sevgi/car-hmi-with-cursor/build/Qt_6_9_3_for_macOS-Debug/car-hmi-with-cursor_autogen/include/../EMXKTHPPBQ/moc_MockCan.cpp.json

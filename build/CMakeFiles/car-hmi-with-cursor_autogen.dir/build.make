@@ -71,7 +71,7 @@ CMakeFiles/car-hmi-with-cursor_autogen: car-hmi-with-cursor_autogen/timestamp
 car-hmi-with-cursor_autogen/timestamp: /Users/sevgi/Qt/6.9.3/macos/libexec/moc
 car-hmi-with-cursor_autogen/timestamp: CMakeFiles/car-hmi-with-cursor_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target car-hmi-with-cursor"
-	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/sevgi/car-hmi-with-cursor/build/CMakeFiles/car-hmi-with-cursor_autogen.dir/AutogenInfo.json Release
+	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/sevgi/car-hmi-with-cursor/build/CMakeFiles/car-hmi-with-cursor_autogen.dir/AutogenInfo.json ""
 	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/sevgi/car-hmi-with-cursor/build/car-hmi-with-cursor_autogen/timestamp
 
 car-hmi-with-cursor_autogen: CMakeFiles/car-hmi-with-cursor_autogen

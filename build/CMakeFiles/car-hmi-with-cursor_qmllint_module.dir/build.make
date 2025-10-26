@@ -69,6 +69,8 @@ include CMakeFiles/car-hmi-with-cursor_qmllint_module.dir/progress.make
 CMakeFiles/car-hmi-with-cursor_qmllint_module: /Users/sevgi/Qt/6.9.3/macos/bin/qmllint
 CMakeFiles/car-hmi-with-cursor_qmllint_module: /Users/sevgi/car-hmi-with-cursor/ui/Main.qml
 CMakeFiles/car-hmi-with-cursor_qmllint_module: /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml
+CMakeFiles/car-hmi-with-cursor_qmllint_module: /Users/sevgi/car-hmi-with-cursor/ui/components/RealisticCar3D.qml
+CMakeFiles/car-hmi-with-cursor_qmllint_module: /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml
 CMakeFiles/car-hmi-with-cursor_qmllint_module: .rcc/qmllint/car-hmi-with-cursor_module.rsp
 	cd /Users/sevgi/car-hmi-with-cursor && /Users/sevgi/Qt/6.9.3/macos/bin/qmllint @/Users/sevgi/car-hmi-with-cursor/build/.rcc/qmllint/car-hmi-with-cursor_module.rsp
 

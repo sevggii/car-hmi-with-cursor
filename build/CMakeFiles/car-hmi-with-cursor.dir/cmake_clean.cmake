@@ -4,6 +4,10 @@ file(REMOVE_RECURSE
   ".rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp"
   ".rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp"
   ".rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp"
+  ".rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.aotstats"
+  ".rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp"
+  ".rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.aotstats"
   ".rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp"
   ".rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.aotstats"
   "CMakeFiles/car-hmi-with-cursor_autogen.dir/AutogenUsed.txt"
@@ -19,6 +23,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_qmlcache_loader.cpp.o.d"
   "CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.o"
   "CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.o.d"
+  "CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o"
+  "CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.o.d"
+  "CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o"
+  "CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.o.d"
   "CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o"
   "CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.o.d"
   "CMakeFiles/car-hmi-with-cursor.dir/car-hmi-with-cursor_autogen/mocs_compilation.cpp.o"
@@ -35,8 +43,8 @@ file(REMOVE_RECURSE
   "car-hmi-with-cursor_qmltyperegistrations.cpp"
   "meta_types/car-hmi-with-cursor_json_file_list.txt"
   "meta_types/car-hmi-with-cursor_json_file_list.txt.timestamp"
-  "meta_types/qt6car-hmi-with-cursor_release_metatypes.json"
-  "meta_types/qt6car-hmi-with-cursor_release_metatypes.json.gen"
+  "meta_types/qt6car-hmi-with-cursor_metatypes.json"
+  "meta_types/qt6car-hmi-with-cursor_metatypes.json.gen"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -7,10 +7,12 @@ int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
-    QQmlApplicationEngine engine;
-
-    // Create and register MockCan instance
+    // Create MockCan instance
     MockCan mockCan;
+    
+    QQmlApplicationEngine engine;
+    
+    // Register MockCan BEFORE loading QML
     engine.rootContext()->setContextProperty("mockCan", &mockCan);
 
     const QUrl url(QStringLiteral("qrc:/CarHMI/ui/Main.qml"));
@@ -21,6 +23,10 @@ int main(int argc, char *argv[])
         []() { QCoreApplication::exit(-1); },
         Qt::QueuedConnection);
     engine.load(url);
+
+    if (engine.rootObjects().isEmpty()) {
+        return -1;
+    }
 
     return app.exec();
 }

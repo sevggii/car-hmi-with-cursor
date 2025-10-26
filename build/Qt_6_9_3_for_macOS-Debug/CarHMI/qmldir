@@ -1,7 +1,0 @@
-module CarHMI
-typeinfo car-hmi-with-cursor.qmltypes
-prefer :/CarHMI/
-Main 1.0 ui/Main.qml
-SpeedCluster 1.0 ui/components/SpeedCluster.qml
-depends QtQuick
-

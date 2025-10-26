@@ -281,6 +281,7 @@ CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__mbstate_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/sys/_types/_mbstate_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/_static_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
@@ -949,6 +950,7 @@ CMakeFiles/car-hmi-with-cursor.dir/build/.rcc/qmlcache/car-hmi-with-cursor_ui/co
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/cassert \
   /Users/sevgi/Qt/6.9.3/macos/lib/QtCore.framework/Headers/q20iterator.h \
   /Users/sevgi/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qtyperevision.h \
+  /Users/sevgi/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qloggingcategory.h \
   /Users/sevgi/Qt/6.9.3/macos/lib/QtCore.framework/Headers/qrandom.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \

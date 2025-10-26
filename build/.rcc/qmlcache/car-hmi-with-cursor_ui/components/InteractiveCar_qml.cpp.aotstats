@@ -1,0 +1,284 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 833,
+                        "errorMessage": "",
+                        "functionName": "onLeftDoorOpenChanged",
+                        "line": 336
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "onRightDoorOpenChanged",
+                        "line": 337
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "onLightsOnChanged",
+                        "line": 338
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "onRotation3DChanged",
+                        "line": 339
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "Cannot access value for name mouse",
+                        "functionName": "onPressed",
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 91,
+                        "errorMessage": "Cannot access value for name mouse",
+                        "functionName": "onPositionChanged",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 153,
+                        "errorMessage": "",
+                        "functionName": "rotAngle",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 36,
+                        "durationMicroseconds": 242,
+                        "errorMessage": "",
+                        "functionName": "perspective",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 18,
+                        "durationMicroseconds": 8972,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "onPaint",
+                        "line": 49
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 59,
+                        "durationMicroseconds": 38,
+                        "errorMessage": "",
+                        "functionName": "type",
+                        "line": 256
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 263
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 264
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 267
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 269
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 65,
+                        "errorMessage": "Cannot load property pressed from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml)::parent with type QQuickItem.",
+                        "functionName": "color",
+                        "line": 277
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 276
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "Cannot load property containsMouse from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml)::parent with type QQuickItem.",
+                        "functionName": "width",
+                        "line": 279
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 118,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 288
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 289
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 58,
+                        "errorMessage": "",
+                        "functionName": "visible",
+                        "line": 292
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 105,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 294
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 43,
+                        "errorMessage": "Cannot load property pressed from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml)::parent with type QQuickItem.",
+                        "functionName": "color",
+                        "line": 302
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 24,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 301
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "Cannot load property containsMouse from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml)::parent with type QQuickItem.",
+                        "functionName": "width",
+                        "line": 304
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 99,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 313
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 314
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 98,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 318
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 20,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "Cannot load property pressed from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml)::parent with type QQuickItem.",
+                        "functionName": "color",
+                        "line": 326
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 325
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "Cannot load property containsMouse from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml)::parent with type QQuickItem.",
+                        "functionName": "width",
+                        "line": 328
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 344
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 37,
+                        "errorMessage": "",
+                        "functionName": "horizontalCenter",
+                        "line": 343
+                    }
+                ],
+                "filePath": "/Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml"
+            }
+        ],
+        "moduleId": "CarHMI(car-hmi-with-cursor)"
+    }
+]

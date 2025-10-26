@@ -70,6 +70,8 @@ CMakeFiles/module_car-hmi-with-cursor_aotstats_target: .rcc/qmlcache/module_car-
 
 .rcc/qmlcache/module_car-hmi-with-cursor.aotstats: .rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.aotstats
 .rcc/qmlcache/module_car-hmi-with-cursor.aotstats: .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.aotstats
+.rcc/qmlcache/module_car-hmi-with-cursor.aotstats: .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.aotstats
+.rcc/qmlcache/module_car-hmi-with-cursor.aotstats: .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.aotstats
 .rcc/qmlcache/module_car-hmi-with-cursor.aotstats: .rcc/qmlcache/module_car-hmi-with-cursor.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_car-hmi-with-cursor.aotstats"
 	/Users/sevgi/Qt/6.9.3/macos/libexec/qmlaotstats aggregate /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/module_car-hmi-with-cursor.aotstatslist /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/module_car-hmi-with-cursor.aotstats
@@ -87,13 +89,39 @@ CMakeFiles/module_car-hmi-with-cursor_aotstats_target: .rcc/qmlcache/module_car-
 .rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.aotstats: .rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.aotstats
 
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp: /Users/sevgi/Qt/6.9.3/macos/libexec/qmlcachegen
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp: /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp: .qt/rcc/qmake_CarHMI.qrc
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp: .qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp: CarHMI/car-hmi-with-cursor.qmltypes
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp: CarHMI/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp, .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.aotstats"
+	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E make_directory /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components
+	/Users/sevgi/Qt/6.9.3/macos/libexec/qmlcachegen --bare --resource-path /CarHMI/ui/components/InteractiveCar.qml -I /Users/sevgi/car-hmi-with-cursor/build -I /Users/sevgi/Qt/6.9.3/macos/qml -i /Users/sevgi/car-hmi-with-cursor/build/CarHMI/qmldir --resource /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/qmake_CarHMI.qrc --resource /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc --dump-aot-stats "--module-id=CarHMI(car-hmi-with-cursor)" -o /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml
+
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.aotstats: .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.aotstats
+
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp: /Users/sevgi/Qt/6.9.3/macos/libexec/qmlcachegen
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp: /Users/sevgi/car-hmi-with-cursor/ui/components/RealisticCar3D.qml
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp: .qt/rcc/qmake_CarHMI.qrc
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp: .qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp: CarHMI/car-hmi-with-cursor.qmltypes
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp: CarHMI/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp, .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.aotstats"
+	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E make_directory /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components
+	/Users/sevgi/Qt/6.9.3/macos/libexec/qmlcachegen --bare --resource-path /CarHMI/ui/components/RealisticCar3D.qml -I /Users/sevgi/car-hmi-with-cursor/build -I /Users/sevgi/Qt/6.9.3/macos/qml -i /Users/sevgi/car-hmi-with-cursor/build/CarHMI/qmldir --resource /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/qmake_CarHMI.qrc --resource /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc --dump-aot-stats "--module-id=CarHMI(car-hmi-with-cursor)" -o /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp /Users/sevgi/car-hmi-with-cursor/ui/components/RealisticCar3D.qml
+
+.rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.aotstats: .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.aotstats
+
 .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp: /Users/sevgi/Qt/6.9.3/macos/libexec/qmlcachegen
 .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp: /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml
 .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp: .qt/rcc/qmake_CarHMI.qrc
 .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp: .qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc
 .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp: CarHMI/car-hmi-with-cursor.qmltypes
 .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp: CarHMI/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp, .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp, .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.aotstats"
 	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E make_directory /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components
 	/Users/sevgi/Qt/6.9.3/macos/libexec/qmlcachegen --bare --resource-path /CarHMI/ui/components/SpeedCluster.qml -I /Users/sevgi/car-hmi-with-cursor/build -I /Users/sevgi/Qt/6.9.3/macos/qml -i /Users/sevgi/car-hmi-with-cursor/build/CarHMI/qmldir --resource /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/qmake_CarHMI.qrc --resource /Users/sevgi/car-hmi-with-cursor/build/.qt/rcc/car-hmi-with-cursor_raw_qml_0.qrc --dump-aot-stats "--module-id=CarHMI(car-hmi-with-cursor)" -o /Users/sevgi/car-hmi-with-cursor/build/.rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml
 
@@ -102,6 +130,10 @@ CMakeFiles/module_car-hmi-with-cursor_aotstats_target: .rcc/qmlcache/module_car-
 
 module_car-hmi-with-cursor_aotstats_target: .rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp
 module_car-hmi-with-cursor_aotstats_target: .rcc/qmlcache/car-hmi-with-cursor_ui/Main_qml.cpp.aotstats
+module_car-hmi-with-cursor_aotstats_target: .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp
+module_car-hmi-with-cursor_aotstats_target: .rcc/qmlcache/car-hmi-with-cursor_ui/components/InteractiveCar_qml.cpp.aotstats
+module_car-hmi-with-cursor_aotstats_target: .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp
+module_car-hmi-with-cursor_aotstats_target: .rcc/qmlcache/car-hmi-with-cursor_ui/components/RealisticCar3D_qml.cpp.aotstats
 module_car-hmi-with-cursor_aotstats_target: .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp
 module_car-hmi-with-cursor_aotstats_target: .rcc/qmlcache/car-hmi-with-cursor_ui/components/SpeedCluster_qml.cpp.aotstats
 module_car-hmi-with-cursor_aotstats_target: .rcc/qmlcache/module_car-hmi-with-cursor.aotstats

@@ -6,7 +6,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 1418,
+                        "durationMicroseconds": 137,
                         "errorMessage": "",
                         "functionName": "speedFactor",
                         "line": 34
@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 115,
+                        "durationMicroseconds": 86,
                         "errorMessage": "",
                         "functionName": "rpmFactor",
                         "line": 35
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 44,
+                        "durationMicroseconds": 28,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 39
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 26,
-                        "durationMicroseconds": 158,
+                        "durationMicroseconds": 40,
                         "errorMessage": "",
                         "functionName": "orientation",
                         "line": 41
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 16,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 53,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 52
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 17,
-                        "durationMicroseconds": 60,
+                        "durationMicroseconds": 45,
                         "errorMessage": "",
                         "functionName": "height",
                         "line": 53
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 27,
+                        "durationMicroseconds": 20,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 51
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 52,
+                        "durationMicroseconds": 38,
                         "errorMessage": "Cannot access value for name speedFactor",
                         "functionName": "color",
                         "line": 59
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 39,
+                        "durationMicroseconds": 29,
                         "errorMessage": "Cannot access value for name rpmFactor",
                         "functionName": "color",
                         "line": 63
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 20,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 33,
                         "errorMessage": "",
                         "functionName": "loops",
                         "line": 72
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 52,
+                        "durationMicroseconds": 40,
                         "errorMessage": "",
                         "functionName": "x",
                         "line": 80
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 48,
+                        "durationMicroseconds": 37,
                         "errorMessage": "",
                         "functionName": "y",
                         "line": 81
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 19,
+                        "durationMicroseconds": 15,
                         "errorMessage": "Cannot access value for name index",
                         "functionName": "width",
                         "line": 90
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 15,
+                        "durationMicroseconds": 11,
                         "errorMessage": "Cannot access value for name index",
                         "functionName": "height",
                         "line": 91
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 79,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 92
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 12,
+                        "durationMicroseconds": 20,
                         "errorMessage": "Cannot access value for name index",
                         "functionName": "opacity",
                         "line": 96
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 27,
+                        "durationMicroseconds": 51,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 89
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 31,
-                        "durationMicroseconds": 14,
+                        "durationMicroseconds": 13,
                         "errorMessage": "Cannot access value for name colorAmber",
                         "functionName": "color",
                         "line": 94
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 53,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 105
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 26,
+                        "durationMicroseconds": 24,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 102
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 48,
+                        "durationMicroseconds": 39,
                         "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
                         "functionName": "radius",
                         "line": 120
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 24,
+                        "durationMicroseconds": 23,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 118
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 419,
+                        "durationMicroseconds": 322,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "onPaint",
                         "line": 131
@@ -190,7 +190,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 23,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 130
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 127,
+                        "durationMicroseconds": 97,
                         "errorMessage": "",
                         "functionName": "progress",
                         "line": 152
@@ -206,7 +206,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 27,
                         "errorMessage": "",
                         "functionName": "onProgressChanged",
                         "line": 158
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 194,
+                        "durationMicroseconds": 158,
                         "errorMessage": "Cannot access value for name colorAmber",
                         "functionName": "onPaint",
                         "line": 160
@@ -222,7 +222,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 27,
+                        "durationMicroseconds": 22,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 151
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 27,
+                        "durationMicroseconds": 23,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 199
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 23,
-                        "durationMicroseconds": 107,
+                        "durationMicroseconds": 82,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "text",
                         "line": 203
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 73,
+                        "durationMicroseconds": 56,
                         "errorMessage": "Cannot access value for name colorAmber",
                         "functionName": "color",
                         "line": 206
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 44,
+                        "durationMicroseconds": 36,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 205
@@ -262,7 +262,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 43,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 38,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 207
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 31,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 220
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 43,
-                        "durationMicroseconds": 45,
+                        "durationMicroseconds": 35,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 223
@@ -286,7 +286,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 43,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 33,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 230
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
                         "functionName": "x",
                         "line": 239
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 12,
-                        "durationMicroseconds": 55,
+                        "durationMicroseconds": 41,
                         "errorMessage": "",
                         "functionName": "y",
                         "line": 240
@@ -310,7 +310,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 19,
+                        "durationMicroseconds": 15,
                         "errorMessage": "Cannot access value for name index",
                         "functionName": "width",
                         "line": 249
@@ -318,7 +318,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 15,
+                        "durationMicroseconds": 12,
                         "errorMessage": "Cannot access value for name index",
                         "functionName": "height",
                         "line": 250
@@ -326,7 +326,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 25,
-                        "durationMicroseconds": 60,
+                        "durationMicroseconds": 45,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 251
@@ -334,7 +334,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 26,
-                        "durationMicroseconds": 13,
+                        "durationMicroseconds": 10,
                         "errorMessage": "Cannot access value for name index",
                         "functionName": "opacity",
                         "line": 255
@@ -342,7 +342,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 35,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 22,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 248
@@ -350,7 +350,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 31,
-                        "durationMicroseconds": 15,
+                        "durationMicroseconds": 11,
                         "errorMessage": "Cannot access value for name colorCyan",
                         "functionName": "color",
                         "line": 253
@@ -358,7 +358,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 21,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
                         "functionName": "radius",
                         "line": 264
@@ -366,7 +366,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 21,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 261
@@ -374,7 +374,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 25,
-                        "durationMicroseconds": 56,
+                        "durationMicroseconds": 32,
                         "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
                         "functionName": "radius",
                         "line": 279
@@ -382,7 +382,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 27,
+                        "durationMicroseconds": 21,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 277
@@ -390,7 +390,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 387,
+                        "durationMicroseconds": 312,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "onPaint",
                         "line": 290
@@ -398,7 +398,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 21,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 289
@@ -406,7 +406,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 37,
-                        "durationMicroseconds": 124,
+                        "durationMicroseconds": 167,
                         "errorMessage": "",
                         "functionName": "progress",
                         "line": 311
@@ -414,7 +414,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 32,
-                        "durationMicroseconds": 34,
+                        "durationMicroseconds": 31,
                         "errorMessage": "",
                         "functionName": "onProgressChanged",
                         "line": 317
@@ -422,7 +422,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 22,
-                        "durationMicroseconds": 255,
+                        "durationMicroseconds": 187,
                         "errorMessage": "Cannot access value for name colorCyan",
                         "functionName": "onPaint",
                         "line": 319
@@ -438,7 +438,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 63,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 34,
                         "errorMessage": "",
                         "functionName": "type",
                         "line": 314
@@ -446,7 +446,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 27,
+                        "durationMicroseconds": 21,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 362
@@ -454,7 +454,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 98,
+                        "durationMicroseconds": 75,
                         "errorMessage": "",
                         "functionName": "text",
                         "line": 366
@@ -462,7 +462,7 @@
                     {
                         "codegenSuccessful": false,
                         "column": 24,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 64,
                         "errorMessage": "Cannot access value for name colorCyan",
                         "functionName": "color",
                         "line": 369
@@ -470,7 +470,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 49,
+                        "durationMicroseconds": 33,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 368
@@ -478,7 +478,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 43,
-                        "durationMicroseconds": 54,
+                        "durationMicroseconds": 36,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 370
@@ -486,7 +486,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 45,
+                        "durationMicroseconds": 30,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 383
@@ -494,7 +494,7 @@
                     {
                         "codegenSuccessful": true,
                         "column": 43,
-                        "durationMicroseconds": 49,
+                        "durationMicroseconds": 33,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 386
@@ -502,551 +502,639 @@
                     {
                         "codegenSuccessful": true,
                         "column": 43,
-                        "durationMicroseconds": 47,
+                        "durationMicroseconds": 29,
                         "errorMessage": "",
                         "functionName": "horizontalCenter",
                         "line": 393
                     },
                     {
-                        "codegenSuccessful": false,
-                        "column": 21,
-                        "durationMicroseconds": 45,
-                        "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
-                        "functionName": "radius",
-                        "line": 420
-                    },
-                    {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 31,
+                        "durationMicroseconds": 24,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 418
+                        "line": 408
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 46,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 432
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 27,
-                        "durationMicroseconds": 59,
-                        "errorMessage": "Cannot access value for name colorAmber",
-                        "functionName": "color",
-                        "line": 440
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 28,
-                        "durationMicroseconds": 30,
-                        "errorMessage": "Cannot access value for name index",
-                        "functionName": "width",
-                        "line": 448
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 29,
-                        "durationMicroseconds": 27,
-                        "errorMessage": "Cannot access value for name index",
-                        "functionName": "height",
-                        "line": 449
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 29,
-                        "durationMicroseconds": 64,
-                        "errorMessage": "",
-                        "functionName": "radius",
-                        "line": 450
-                    },
-                    {
-                        "codegenSuccessful": false,
                         "column": 30,
-                        "durationMicroseconds": 14,
-                        "errorMessage": "Cannot access value for name index",
-                        "functionName": "opacity",
-                        "line": 454
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 39,
                         "durationMicroseconds": 31,
                         "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 447
+                        "functionName": "orientation",
+                        "line": 413
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 35,
-                        "durationMicroseconds": 44,
-                        "errorMessage": "Cannot load property border from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "column": 54,
+                        "durationMicroseconds": 88,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
                         "functionName": "color",
-                        "line": 452
+                        "line": 414
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 54,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant",
+                        "functionName": "color",
+                        "line": 416
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 423
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 424
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 425
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 22,
+                        "durationMicroseconds": 12,
+                        "errorMessage": "Cannot access value for name speedFactor",
+                        "functionName": "opacity",
+                        "line": 426
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 422
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 54,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot access value for name colorCyan",
+                        "functionName": "color",
+                        "line": 429
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 443
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 444
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 30,
                         "errorMessage": "",
-                        "functionName": "text",
-                        "line": 459
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 24,
-                        "durationMicroseconds": 36,
-                        "errorMessage": "Cannot load property border from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
-                        "functionName": "color",
-                        "line": 462
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 30,
-                        "durationMicroseconds": 41,
-                        "errorMessage": "",
-                        "functionName": "weight",
-                        "line": 461
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 35,
-                        "durationMicroseconds": 29,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 463
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 48,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 476
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 47,
-                        "durationMicroseconds": 46,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 487
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 62,
-                        "durationMicroseconds": 215,
-                        "errorMessage": "",
-                        "functionName": "color",
-                        "line": 490
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 35,
-                        "durationMicroseconds": 49,
-                        "errorMessage": "Cannot access value for name colorDangerRed",
-                        "functionName": "color",
-                        "line": 494
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 32,
-                        "durationMicroseconds": 50,
-                        "errorMessage": "Cannot access value for name colorDangerRed",
-                        "functionName": "color",
-                        "line": 500
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 43,
-                        "durationMicroseconds": 31,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 501
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 137,
-                        "errorMessage": "",
-                        "functionName": "text",
-                        "line": 505
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 28,
-                        "durationMicroseconds": 35,
-                        "errorMessage": "Cannot access value for name colorDangerRed",
-                        "functionName": "color",
-                        "line": 508
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 47,
-                        "durationMicroseconds": 49,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 509
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 47,
-                        "durationMicroseconds": 57,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 520
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 62,
-                        "durationMicroseconds": 228,
-                        "errorMessage": "",
-                        "functionName": "color",
-                        "line": 523
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 35,
-                        "durationMicroseconds": 49,
-                        "errorMessage": "Cannot access value for name colorDangerRed",
-                        "functionName": "color",
-                        "line": 527
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 43,
-                        "durationMicroseconds": 32,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 533
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 122,
-                        "errorMessage": "",
-                        "functionName": "text",
-                        "line": 537
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 28,
-                        "durationMicroseconds": 50,
-                        "errorMessage": "Cannot access value for name colorDangerRed",
-                        "functionName": "color",
-                        "line": 540
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 47,
-                        "durationMicroseconds": 49,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 541
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 49,
-                        "errorMessage": "",
-                        "functionName": "horizontalCenter",
-                        "line": 548
+                        "functionName": "lightsOn",
+                        "line": 446
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 24,
-                        "durationMicroseconds": 164,
+                        "durationMicroseconds": 145,
                         "errorMessage": "",
-                        "functionName": "color",
-                        "line": 556
+                        "functionName": "rotationY",
+                        "line": 447
                     },
                     {
-                        "codegenSuccessful": false,
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "onPartClicked",
+                        "line": 449
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "",
+                        "functionName": "onPartClicked",
+                        "line": 449
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 43,
-                        "errorMessage": "Cannot access value for name colorNeonBlue",
-                        "functionName": "color",
-                        "line": 557
+                        "durationMicroseconds": 22,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 441
                     },
                     {
-                        "codegenSuccessful": false,
-                        "column": 28,
-                        "durationMicroseconds": 28,
-                        "errorMessage": "Cannot access value for name colorNeonBlue",
-                        "functionName": "color",
-                        "line": 564
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 55,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 460
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 39,
                         "durationMicroseconds": 34,
                         "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 565
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 24,
-                        "durationMicroseconds": 166,
-                        "errorMessage": "",
-                        "functionName": "color",
-                        "line": 573
+                        "functionName": "horizontalCenter",
+                        "line": 459
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 31,
-                        "durationMicroseconds": 23,
-                        "errorMessage": "Cannot access value for name colorDangerRed",
+                        "column": 27,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "Cannot access value for name colorAmber",
                         "functionName": "color",
-                        "line": 574
+                        "line": 467
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 28,
-                        "durationMicroseconds": 25,
-                        "errorMessage": "Cannot access value for name colorDangerRed",
-                        "functionName": "color",
-                        "line": 580
+                        "durationMicroseconds": 23,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "width",
+                        "line": 475
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "height",
+                        "line": 476
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 29,
+                        "durationMicroseconds": 45,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 477
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 30,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "opacity",
+                        "line": 481
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 39,
-                        "durationMicroseconds": 30,
+                        "durationMicroseconds": 21,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 581
+                        "line": 474
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 35,
+                        "durationMicroseconds": 34,
+                        "errorMessage": "Cannot load property border from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "functionName": "color",
+                        "line": 479
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "text",
+                        "line": 486
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "Cannot load property border from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "functionName": "color",
+                        "line": 489
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 30,
-                        "durationMicroseconds": 43,
+                        "durationMicroseconds": 33,
                         "errorMessage": "",
-                        "functionName": "running",
-                        "line": 585
+                        "functionName": "weight",
+                        "line": 488
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 28,
-                        "durationMicroseconds": 46,
-                        "errorMessage": "",
-                        "functionName": "loops",
-                        "line": 586
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 50,
-                        "durationMicroseconds": 165,
-                        "errorMessage": "",
-                        "functionName": "color",
-                        "line": 604
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 23,
-                        "durationMicroseconds": 26,
-                        "errorMessage": "Cannot access value for name colorAmber",
-                        "functionName": "color",
-                        "line": 608
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 20,
+                        "column": 35,
                         "durationMicroseconds": 21,
-                        "errorMessage": "Cannot access value for name colorAmber",
-                        "functionName": "color",
-                        "line": 615
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 31,
-                        "durationMicroseconds": 31,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 616
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 28,
-                        "durationMicroseconds": 42,
-                        "errorMessage": "",
-                        "functionName": "enabled",
-                        "line": 618
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 22,
-                        "durationMicroseconds": 39,
-                        "errorMessage": "",
-                        "functionName": "running",
-                        "line": 626
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 20,
-                        "durationMicroseconds": 43,
-                        "errorMessage": "",
-                        "functionName": "loops",
-                        "line": 627
+                        "line": 490
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 50,
-                        "durationMicroseconds": 165,
+                        "durationMicroseconds": 127,
                         "errorMessage": "",
                         "functionName": "color",
-                        "line": 642
+                        "line": 512
                     },
                     {
-                        "codegenSuccessful": false,
+                        "codegenSuccessful": true,
+                        "column": 50,
+                        "durationMicroseconds": 116,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 513
+                    },
+                    {
+                        "codegenSuccessful": true,
                         "column": 23,
-                        "durationMicroseconds": 20,
-                        "errorMessage": "Cannot access value for name colorAmber",
+                        "durationMicroseconds": 112,
+                        "errorMessage": "",
                         "functionName": "color",
-                        "line": 646
+                        "line": 516
                     },
                     {
-                        "codegenSuccessful": false,
+                        "codegenSuccessful": true,
                         "column": 20,
-                        "durationMicroseconds": 21,
-                        "errorMessage": "Cannot access value for name colorAmber",
+                        "durationMicroseconds": 109,
+                        "errorMessage": "",
                         "functionName": "color",
-                        "line": 653
+                        "line": 523
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 31,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 524
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
                         "durationMicroseconds": 30,
                         "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 654
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 28,
-                        "durationMicroseconds": 42,
-                        "errorMessage": "",
                         "functionName": "enabled",
-                        "line": 656
+                        "line": 526
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 22,
-                        "durationMicroseconds": 101,
+                        "durationMicroseconds": 29,
                         "errorMessage": "",
                         "functionName": "running",
-                        "line": 664
+                        "line": 535
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 32,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 536
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 52,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 544
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 49,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 545
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 21,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "",
+                        "functionName": "radius",
+                        "line": 546
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 550
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 35,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 543
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 40,
+                        "errorMessage": "Cannot access value for name colorAmber",
+                        "functionName": "color",
+                        "line": 548
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 50,
+                        "durationMicroseconds": 210,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 567
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 50,
+                        "durationMicroseconds": 130,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 568
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 23,
+                        "durationMicroseconds": 117,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 571
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 112,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 578
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 579
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "enabled",
+                        "line": 581
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 29,
+                        "errorMessage": "",
+                        "functionName": "running",
+                        "line": 590
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "loops",
+                        "line": 591
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 20,
                         "durationMicroseconds": 58,
                         "errorMessage": "",
-                        "functionName": "loops",
-                        "line": 665
+                        "functionName": "width",
+                        "line": 599
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 26,
-                        "durationMicroseconds": 62,
-                        "errorMessage": "",
-                        "functionName": "top",
-                        "line": 691
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 47,
-                        "errorMessage": "",
-                        "functionName": "left",
-                        "line": 692
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 28,
-                        "durationMicroseconds": 41,
-                        "errorMessage": "",
-                        "functionName": "right",
-                        "line": 693
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 54,
-                        "durationMicroseconds": 21,
-                        "errorMessage": "Cannot access value for name colorCyan",
-                        "functionName": "color",
-                        "line": 700
-                    },
-                    {
-                        "codegenSuccessful": false,
                         "column": 21,
-                        "durationMicroseconds": 48,
-                        "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
-                        "functionName": "radius",
-                        "line": 711
+                        "durationMicroseconds": 58,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 600
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 27,
-                        "durationMicroseconds": 34,
+                        "column": 21,
+                        "durationMicroseconds": 43,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 709
+                        "functionName": "radius",
+                        "line": 601
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 59,
+                        "errorMessage": "",
+                        "functionName": "opacity",
+                        "line": 605
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 29,
+                        "durationMicroseconds": 21,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 719
+                        "line": 598
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 27,
+                        "durationMicroseconds": 14,
+                        "errorMessage": "Cannot access value for name colorAmber",
+                        "functionName": "color",
+                        "line": 603
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 633
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 634
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 28,
+                        "durationMicroseconds": 30,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 635
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 54,
+                        "durationMicroseconds": 11,
+                        "errorMessage": "Cannot access value for name colorCyan",
+                        "functionName": "color",
+                        "line": 642
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 21,
+                        "durationMicroseconds": 36,
+                        "errorMessage": "Cannot load property radius from (component in /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml)::parent with type QQuickItem.",
+                        "functionName": "radius",
+                        "line": 653
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 20,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 651
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 31,
+                        "durationMicroseconds": 22,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 661
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 41,
-                        "durationMicroseconds": 46,
+                        "durationMicroseconds": 34,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 725
+                        "line": 667
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 45,
-                        "durationMicroseconds": 44,
+                        "durationMicroseconds": 32,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 731
+                        "line": 673
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 33,
+                        "durationMicroseconds": 22,
                         "errorMessage": "Cannot access value for name colorCyan",
                         "functionName": "color",
-                        "line": 738
+                        "line": 680
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 16,
+                        "durationMicroseconds": 13,
                         "errorMessage": "Cannot access value for name colorCyan",
                         "functionName": "color",
-                        "line": 744
+                        "line": 686
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 43,
-                        "durationMicroseconds": 29,
+                        "durationMicroseconds": 21,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 745
+                        "line": 687
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 44,
+                        "durationMicroseconds": 33,
+                        "errorMessage": "",
+                        "functionName": "weight",
+                        "line": 704
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 31,
+                        "durationMicroseconds": 279,
+                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
+                        "functionName": "text",
+                        "line": 709
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "Cannot access value for name colorCyan",
+                        "functionName": "color",
+                        "line": 713
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 104,
+                        "errorMessage": "",
+                        "functionName": "weight",
+                        "line": 711
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 79,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 730
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 736
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 45,
+                        "durationMicroseconds": 72,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 742
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 43,
+                        "durationMicroseconds": 51,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 751
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 38,
+                        "durationMicroseconds": 71,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 762
@@ -1054,23 +1142,15 @@
                     {
                         "codegenSuccessful": false,
                         "column": 31,
-                        "durationMicroseconds": 120,
+                        "durationMicroseconds": 183,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "text",
                         "line": 767
                     },
                     {
-                        "codegenSuccessful": false,
-                        "column": 32,
-                        "durationMicroseconds": 17,
-                        "errorMessage": "Cannot access value for name colorCyan",
-                        "functionName": "color",
-                        "line": 771
-                    },
-                    {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 42,
+                        "durationMicroseconds": 83,
                         "errorMessage": "",
                         "functionName": "weight",
                         "line": 769
@@ -1078,138 +1158,82 @@
                     {
                         "codegenSuccessful": true,
                         "column": 41,
-                        "durationMicroseconds": 45,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 782
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 41,
+                        "durationMicroseconds": 104,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 788
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 41,
-                        "durationMicroseconds": 44,
+                        "column": 45,
+                        "durationMicroseconds": 81,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 794
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 45,
-                        "durationMicroseconds": 41,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 800
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 43,
-                        "durationMicroseconds": 26,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 809
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 38,
-                        "durationMicroseconds": 39,
-                        "errorMessage": "",
-                        "functionName": "weight",
-                        "line": 820
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 31,
-                        "durationMicroseconds": 109,
-                        "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
-                        "functionName": "text",
-                        "line": 825
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 38,
-                        "durationMicroseconds": 39,
-                        "errorMessage": "",
-                        "functionName": "weight",
-                        "line": 827
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 41,
-                        "durationMicroseconds": 45,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 840
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 41,
-                        "durationMicroseconds": 44,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 846
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 45,
-                        "durationMicroseconds": 42,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 852
-                    },
-                    {
                         "codegenSuccessful": false,
                         "column": 35,
-                        "durationMicroseconds": 29,
+                        "durationMicroseconds": 73,
                         "errorMessage": "Cannot access value for name colorNeonBlue",
                         "functionName": "color",
-                        "line": 859
+                        "line": 801
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 16,
+                        "durationMicroseconds": 21,
                         "errorMessage": "Cannot access value for name colorNeonBlue",
                         "functionName": "color",
-                        "line": 865
+                        "line": 807
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 43,
-                        "durationMicroseconds": 28,
+                        "durationMicroseconds": 30,
                         "errorMessage": "",
                         "functionName": "centerIn",
-                        "line": 866
+                        "line": 808
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 36,
                         "errorMessage": "",
                         "functionName": "weight",
-                        "line": 877
+                        "line": 819
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 31,
-                        "durationMicroseconds": 148,
+                        "durationMicroseconds": 124,
                         "errorMessage": "",
                         "functionName": "text",
-                        "line": 882
+                        "line": 824
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 32,
-                        "durationMicroseconds": 17,
+                        "durationMicroseconds": 15,
                         "errorMessage": "Cannot access value for name colorNeonBlue",
                         "functionName": "color",
-                        "line": 886
+                        "line": 828
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 38,
-                        "durationMicroseconds": 40,
+                        "durationMicroseconds": 33,
                         "errorMessage": "",
                         "functionName": "weight",
-                        "line": 884
+                        "line": 826
                     }
                 ],
                 "filePath": "/Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml"

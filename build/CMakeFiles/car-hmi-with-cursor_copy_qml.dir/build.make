@@ -71,6 +71,8 @@ CMakeFiles/car-hmi-with-cursor_copy_qml: .qt/car-hmi-with-cursor_qml.txt
 .qt/car-hmi-with-cursor_qml.txt: /Users/sevgi/Qt/6.9.3/macos/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 .qt/car-hmi-with-cursor_qml.txt: /Users/sevgi/car-hmi-with-cursor/ui/Main.qml
 .qt/car-hmi-with-cursor_qml.txt: /Users/sevgi/car-hmi-with-cursor/ui/components/SpeedCluster.qml
+.qt/car-hmi-with-cursor_qml.txt: /Users/sevgi/car-hmi-with-cursor/ui/components/RealisticCar3D.qml
+.qt/car-hmi-with-cursor_qml.txt: /Users/sevgi/car-hmi-with-cursor/ui/components/InteractiveCar.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/sevgi/car-hmi-with-cursor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying car-hmi-with-cursor qml sources into build dir"
 	/Users/sevgi/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DFILES_INFO_PATH=/Users/sevgi/car-hmi-with-cursor/build/.qt/car-hmi-with-cursor_qml.cmake -P /Users/sevgi/Qt/6.9.3/macos/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 
