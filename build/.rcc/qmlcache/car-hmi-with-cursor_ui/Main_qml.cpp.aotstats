@@ -5,611 +5,563 @@
                 "entries": [
                     {
                         "codegenSuccessful": true,
-                        "column": 23,
-                        "durationMicroseconds": 68,
+                        "column": 16,
+                        "durationMicroseconds": 315,
                         "errorMessage": "",
-                        "functionName": "fill",
-                        "line": 15
+                        "functionName": "scale",
+                        "line": 22
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 64,
+                        "errorMessage": "",
+                        "functionName": "transformOrigin",
+                        "line": 23
                     },
                     {
                         "codegenSuccessful": true,
                         "column": 27,
-                        "durationMicroseconds": 25,
+                        "durationMicroseconds": 31,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 28,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 19
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 28,
-                        "durationMicroseconds": 119,
-                        "errorMessage": "",
-                        "functionName": "width",
-                        "line": 30
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 29,
-                        "durationMicroseconds": 21,
-                        "errorMessage": "",
-                        "functionName": "height",
-                        "line": 31
+                        "line": 27
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 28,
-                        "durationMicroseconds": 84,
+                        "column": 20,
+                        "durationMicroseconds": 132,
                         "errorMessage": "Cannot access value for name mockCan",
                         "functionName": "speed",
-                        "line": 33
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 26,
-                        "durationMicroseconds": 58,
-                        "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "rpm",
-                        "line": 34
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 34,
-                        "durationMicroseconds": 52,
-                        "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "leftBlinker",
                         "line": 35
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 35,
-                        "durationMicroseconds": 53,
+                        "column": 18,
+                        "durationMicroseconds": 102,
                         "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "rightBlinker",
+                        "functionName": "rpm",
                         "line": 36
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 31,
-                        "durationMicroseconds": 52,
+                        "column": 26,
+                        "durationMicroseconds": 91,
                         "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "highBeam",
+                        "functionName": "leftBlinker",
                         "line": 37
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 27,
-                        "durationMicroseconds": 60,
+                        "durationMicroseconds": 85,
                         "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "fuel",
+                        "functionName": "rightBlinker",
                         "line": 38
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 34,
-                        "durationMicroseconds": 54,
+                        "column": 23,
+                        "durationMicroseconds": 81,
                         "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "temperature",
+                        "functionName": "highBeam",
                         "line": 39
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 27,
-                        "durationMicroseconds": 56,
+                        "column": 19,
+                        "durationMicroseconds": 80,
                         "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "gear",
+                        "functionName": "fuel",
                         "line": 40
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 31,
-                        "durationMicroseconds": 54,
+                        "column": 26,
+                        "durationMicroseconds": 79,
                         "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "odometer",
+                        "functionName": "temperature",
                         "line": 41
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 32,
-                        "durationMicroseconds": 55,
+                        "column": 19,
+                        "durationMicroseconds": 79,
                         "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "tripMeter",
+                        "functionName": "gear",
                         "line": 42
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 36,
-                        "durationMicroseconds": 56,
+                        "column": 23,
+                        "durationMicroseconds": 79,
                         "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "engineWarning",
+                        "functionName": "odometer",
                         "line": 43
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 33,
-                        "durationMicroseconds": 53,
+                        "column": 24,
+                        "durationMicroseconds": 81,
                         "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "oilWarning",
+                        "functionName": "tripMeter",
                         "line": 44
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 37,
-                        "durationMicroseconds": 52,
+                        "column": 28,
+                        "durationMicroseconds": 80,
                         "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "batteryWarning",
+                        "functionName": "engineWarning",
                         "line": 45
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 39,
-                        "durationMicroseconds": 22,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 29
+                        "codegenSuccessful": false,
+                        "column": 25,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "Cannot access value for name mockCan",
+                        "functionName": "oilWarning",
+                        "line": 46
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 29,
+                        "durationMicroseconds": 80,
+                        "errorMessage": "Cannot access value for name mockCan",
+                        "functionName": "batteryWarning",
+                        "line": 47
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 35,
-                        "durationMicroseconds": 18,
+                        "column": 27,
+                        "durationMicroseconds": 29,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 59
+                        "line": 33
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 43,
-                        "durationMicroseconds": 36,
+                        "column": 24,
+                        "durationMicroseconds": 47,
+                        "errorMessage": "",
+                        "functionName": "right",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "top",
+                        "line": 55
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 25,
+                        "durationMicroseconds": 42,
+                        "errorMessage": "",
+                        "functionName": "bottom",
+                        "line": 56
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 27,
+                        "durationMicroseconds": 27,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 66
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 35,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
                         "functionName": "alignment",
-                        "line": 68
+                        "line": 75
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 35,
-                        "durationMicroseconds": 110,
+                        "column": 27,
+                        "durationMicroseconds": 170,
                         "errorMessage": "Cannot access value for name mockCan",
                         "functionName": "text",
-                        "line": 83
+                        "line": 90
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 36,
+                        "column": 28,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"value\".",
                         "functionName": "value",
-                        "line": 92
+                        "line": 99
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 45,
+                        "column": 37,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"valueChanged\".",
                         "functionName": "onValueChanged",
-                        "line": 93
+                        "line": 100
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 36,
-                        "durationMicroseconds": 6,
+                        "column": 28,
+                        "durationMicroseconds": 9,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "x",
-                        "line": 96
+                        "line": 103
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 36,
-                        "durationMicroseconds": 20,
+                        "column": 28,
+                        "durationMicroseconds": 27,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "y",
-                        "line": 97
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 4,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "width",
-                        "line": 98
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 44,
-                        "durationMicroseconds": 15,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "width",
                         "line": 104
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 45,
-                        "durationMicroseconds": 4,
+                        "column": 32,
+                        "durationMicroseconds": 7,
                         "errorMessage": "Cannot access value for name parent",
-                        "functionName": "height",
+                        "functionName": "width",
                         "line": 105
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 20,
+                        "durationMicroseconds": 13,
                         "errorMessage": "Cannot access value for name parent",
-                        "functionName": "x",
+                        "functionName": "width",
+                        "line": 111
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 5,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "height",
                         "line": 112
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 36,
-                        "durationMicroseconds": 19,
+                        "column": 28,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "x",
+                        "line": 119
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 25,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "y",
-                        "line": 113
+                        "line": 120
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 18,
+                        "column": 32,
+                        "durationMicroseconds": 26,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "color",
-                        "line": 117
+                        "line": 124
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 35,
-                        "durationMicroseconds": 110,
+                        "column": 27,
+                        "durationMicroseconds": 148,
                         "errorMessage": "Cannot access value for name mockCan",
                         "functionName": "text",
-                        "line": 130
+                        "line": 137
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 36,
+                        "column": 28,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find property \"value\".",
                         "functionName": "value",
-                        "line": 139
+                        "line": 146
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 45,
+                        "column": 37,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"valueChanged\".",
                         "functionName": "onValueChanged",
-                        "line": 140
+                        "line": 147
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 36,
-                        "durationMicroseconds": 5,
+                        "column": 28,
+                        "durationMicroseconds": 7,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "x",
-                        "line": 143
+                        "line": 150
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 36,
-                        "durationMicroseconds": 19,
+                        "column": 28,
+                        "durationMicroseconds": 28,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "y",
-                        "line": 144
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 4,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "width",
-                        "line": 145
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 44,
-                        "durationMicroseconds": 11,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "width",
                         "line": 151
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 45,
-                        "durationMicroseconds": 5,
+                        "column": 32,
+                        "durationMicroseconds": 6,
                         "errorMessage": "Cannot access value for name parent",
-                        "functionName": "height",
+                        "functionName": "width",
                         "line": 152
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 36,
-                        "durationMicroseconds": 16,
+                        "durationMicroseconds": 15,
                         "errorMessage": "Cannot access value for name parent",
-                        "functionName": "x",
+                        "functionName": "width",
+                        "line": 158
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 37,
+                        "durationMicroseconds": 6,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "height",
                         "line": 159
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 36,
-                        "durationMicroseconds": 15,
+                        "column": 28,
+                        "durationMicroseconds": 26,
                         "errorMessage": "Cannot access value for name parent",
-                        "functionName": "y",
-                        "line": 160
+                        "functionName": "x",
+                        "line": 166
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 16,
+                        "column": 28,
+                        "durationMicroseconds": 25,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "y",
+                        "line": 167
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 22,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "color",
-                        "line": 164
+                        "line": 171
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 39,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"checkedChanged\".",
+                        "functionName": "onCheckedChanged",
+                        "line": 199
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 21,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "color",
+                        "line": 207
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 9,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "visible",
+                        "line": 215
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 47,
-                        "durationMicroseconds": 0,
-                        "errorMessage": "Could not find signal \"checkedChanged\".",
-                        "functionName": "onCheckedChanged",
-                        "line": 194
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 15,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "color",
-                        "line": 202
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 46,
                         "durationMicroseconds": 5,
                         "errorMessage": "Cannot access value for name parent",
-                        "functionName": "visible",
+                        "functionName": "centerIn",
                         "line": 210
                     },
                     {
-                        "codegenSuccessful": false,
-                        "column": 55,
-                        "durationMicroseconds": 3,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "centerIn",
-                        "line": 205
-                    },
-                    {
                         "codegenSuccessful": true,
-                        "column": 53,
-                        "durationMicroseconds": 37,
+                        "column": 45,
+                        "durationMicroseconds": 54,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 219
+                        "line": 224
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 47,
+                        "column": 39,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"checkedChanged\".",
                         "functionName": "onCheckedChanged",
-                        "line": 231
+                        "line": 234
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 16,
+                        "column": 32,
+                        "durationMicroseconds": 21,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "color",
-                        "line": 239
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 46,
-                        "durationMicroseconds": 5,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "visible",
-                        "line": 247
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 55,
-                        "durationMicroseconds": 3,
-                        "errorMessage": "Cannot access value for name parent",
-                        "functionName": "centerIn",
                         "line": 242
                     },
                     {
-                        "codegenSuccessful": true,
-                        "column": 53,
-                        "durationMicroseconds": 34,
-                        "errorMessage": "",
-                        "functionName": "verticalCenter",
-                        "line": 256
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 8,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "visible",
+                        "line": 250
                     },
                     {
                         "codegenSuccessful": false,
                         "column": 47,
+                        "durationMicroseconds": 4,
+                        "errorMessage": "Cannot access value for name parent",
+                        "functionName": "centerIn",
+                        "line": 245
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 45,
+                        "durationMicroseconds": 46,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 259
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 39,
                         "durationMicroseconds": 0,
                         "errorMessage": "Could not find signal \"checkedChanged\".",
                         "functionName": "onCheckedChanged",
-                        "line": 268
+                        "line": 269
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 15,
+                        "column": 32,
+                        "durationMicroseconds": 24,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "color",
-                        "line": 276
+                        "line": 277
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 46,
+                        "column": 38,
                         "durationMicroseconds": 8,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "visible",
-                        "line": 284
+                        "line": 285
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 55,
-                        "durationMicroseconds": 3,
+                        "column": 47,
+                        "durationMicroseconds": 4,
                         "errorMessage": "Cannot access value for name parent",
                         "functionName": "centerIn",
-                        "line": 279
+                        "line": 280
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 53,
-                        "durationMicroseconds": 34,
+                        "column": 45,
+                        "durationMicroseconds": 46,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
-                        "line": 293
+                        "line": 294
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 53,
-                        "durationMicroseconds": 34,
+                        "column": 45,
+                        "durationMicroseconds": 47,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 321
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 36,
-                        "durationMicroseconds": 88,
+                        "column": 28,
+                        "durationMicroseconds": 119,
                         "errorMessage": "Cannot access value for name mockCan",
                         "functionName": "color",
                         "line": 328
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 39,
-                        "durationMicroseconds": 96,
+                        "column": 31,
+                        "durationMicroseconds": 137,
                         "errorMessage": "Cannot access value for name mockCan",
                         "functionName": "text",
                         "line": 333
                     },
                     {
                         "codegenSuccessful": true,
-                        "column": 51,
-                        "durationMicroseconds": 22,
+                        "column": 43,
+                        "durationMicroseconds": 28,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 337
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 39,
-                        "durationMicroseconds": 104,
+                        "column": 31,
+                        "durationMicroseconds": 136,
                         "errorMessage": "Cannot access value for name mockCan",
                         "functionName": "text",
-                        "line": 355
+                        "line": 354
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 103,
+                        "column": 32,
+                        "durationMicroseconds": 137,
                         "errorMessage": "Cannot access value for name mockCan",
                         "functionName": "color",
-                        "line": 358
+                        "line": 357
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 39,
-                        "durationMicroseconds": 93,
+                        "column": 31,
+                        "durationMicroseconds": 221,
                         "errorMessage": "Cannot access value for name mockCan",
                         "functionName": "text",
-                        "line": 370
+                        "line": 369
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 93,
+                        "column": 32,
+                        "durationMicroseconds": 143,
                         "errorMessage": "Cannot access value for name mockCan",
                         "functionName": "color",
-                        "line": 373
+                        "line": 372
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 39,
-                        "durationMicroseconds": 92,
+                        "column": 31,
+                        "durationMicroseconds": 129,
                         "errorMessage": "Cannot access value for name mockCan",
                         "functionName": "text",
-                        "line": 391
+                        "line": 389
                     },
                     {
                         "codegenSuccessful": false,
-                        "column": 39,
-                        "durationMicroseconds": 89,
+                        "column": 31,
+                        "durationMicroseconds": 127,
                         "errorMessage": "Cannot access value for name mockCan",
                         "functionName": "text",
-                        "line": 407
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 36,
-                        "durationMicroseconds": 71,
-                        "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "color",
-                        "line": 425
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 93,
-                        "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "color",
-                        "line": 432
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 51,
-                        "durationMicroseconds": 21,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 433
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 36,
-                        "durationMicroseconds": 67,
-                        "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "color",
-                        "line": 441
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 92,
-                        "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "color",
-                        "line": 448
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 51,
-                        "durationMicroseconds": 19,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 449
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 36,
-                        "durationMicroseconds": 67,
-                        "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "color",
-                        "line": 457
-                    },
-                    {
-                        "codegenSuccessful": false,
-                        "column": 40,
-                        "durationMicroseconds": 94,
-                        "errorMessage": "Cannot access value for name mockCan",
-                        "functionName": "color",
-                        "line": 464
-                    },
-                    {
-                        "codegenSuccessful": true,
-                        "column": 51,
-                        "durationMicroseconds": 21,
-                        "errorMessage": "",
-                        "functionName": "centerIn",
-                        "line": 465
+                        "line": 405
                     }
                 ],
                 "filePath": "/Users/sevgi/car-hmi-with-cursor/ui/Main.qml"
